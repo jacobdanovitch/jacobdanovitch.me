@@ -1,1 +1,10 @@
+#General
+highlighter: rogue
+name: Danolytics
+description: Coming soon
+URL: "jacobdanovitch.github.io"
+lsi: false
+
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+
 theme: jekyll-theme-cayman
