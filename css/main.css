@@ -186,6 +186,7 @@ footer {
     
     margin-top: 50%;
     text-align: center;
+    font-weight: bold;
     
 }
 
@@ -193,4 +194,15 @@ footer {
 
 #home_col_sep {
     border: 0.5px solid black;
+}
+
+#home_body_header {
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+}
+
+#home_body_text {
+    color: black;
+    text-align: center;
 }
