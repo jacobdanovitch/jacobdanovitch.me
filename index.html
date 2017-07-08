@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Danolytics</title>
+    <meta name="description" content="Danolytics.io is a sports analytics research website.">
+    <meta name="keywords" content="baseball basketball nba mlb sports analytics data algorithms artifical intelligence machine learning statistics moneyball">
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,7 +21,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top"> <!-- inverse = color, fixed top as opposed to sticky (sticks to top, navbar follows w/ scroll)-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!-- inverse = color, fixed top as opposed to sticky (sticks to top, navbar follows w/ scroll)-->
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -28,28 +31,39 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="setuplater.com">Danolytics</a>
+                <a href="#" class="navbar-brand"><img id="navbrand" src="assets/images/Danolytics_brand.png"></a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/data.html">Data</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="data.html">Data</a></li>
                     <li><a href="https://medium.com/danolytics">Blog</a></li>
                 </ul>
-            </div><!--/.nav-collapse -->
+            </div>
+            <!--/.nav-collapse -->
         </div>
     </nav>
 
-    
-    <section id = "construction">
-    
-    <h4>Welcome to Danolytics!</h4>
-    <p>Under construction.</p>
-    
+    <section class="home_jumbotron">
+        <div class="jumbotron">
+            <div class="container hh-jumbo-container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 id="entry_header">Welcome to Danolytics!</h1>
+                        <h6 class="lead">My personal website to showcase my services, research, and achievements.</h6>
+                        <!-- <img class="center-block hh-brand-jumbo-img" src="assets/images/Danolytics.png"> -->
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="/about.html" role="button">About Me</a>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <section id = "slideshow">
+
+    <!--<section id = "slideshow">
         <div class="slideshow-container">
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
@@ -108,45 +122,49 @@
               dots[slideIndex-1].className += " active";
             }
         </script>
+    </section>-->
+
+
+    <section class="home_body">
+
+        <h2 id="home_body_header">Jacob Danovitch</h2>
+        <p id="home_body_text">A little bit about me:</p>
+
+        <div class="home_col">
+            <img id="icon" src="assets/images/codeicon.svg">
+            <hr id="home_col_sep" width="100%" size="1%" />
+            <p class="home_col_text">Experienced in Java, Python, R, SQL, HTML, and CSS.</p>
+        </div>
+        <div class="home_col">
+            <img id="icon" src="assets/images/analyticsicon.svg">
+            <hr id="home_col_sep" width="100%" size="1%" />
+            <p class="home_col_text">Creating unique and powerful data analytics for basketball and baseball. </p>
+        </div>
+        <div class="home_col">
+            <img id="icon" src="assets/images/studenticon.svg">
+            <hr id="home_col_sep" width="100%" size="1%" />
+            <p class="home_col_text">Enrolled in Honors Computer Science at Carleton University, with a focus in algorithms and minors in psychology and statistics.</p>
+        </div>
     </section>
-    
-    
-    <section class = "home_body">
-        
-        <h2 id = "home_body_header">Jacob Danovitch</h2>
-        <p id = "home_body_text">A little bit about me:</p>
-        
-        <div class = "home_col">
-            <img id = icon src = "assets/images/codeicon.svg">
-            <hr id = home_col_sep width="100%" size="1%"/>
-            <p class = "home_col_text">Experienced in Java, Python, R, SQL, HTML, and CSS.</p>
-        </div>
-        <div class = "home_col">
-            <img id = icon src = "assets/images/analyticsicon.svg"> 
-            <hr id = home_col_sep width="100%" size="1%"/>
-            <p class = "home_col_text">Creating unique and powerful data analytics for basketball and baseball</p>
-        </div>
-        <div class = "home_col">
-            <img id = icon src = "assets/images/studenticon.svg">
-            <hr id = home_col_sep width="100%" size="1%"/>
-            <p class = "home_col_text">Enrolled in Honors Computer Science at Carleton University, with a focus in algorithms and minors in psychology and statistics.</p>
-        </div>
-    </section>
-    
-    
+
+
     <footer>
         <small>&copy; Danolytics 2017</small>
     </footer>
-    
+
     <section>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script>
+            window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+
+        </script>
         <script src="../../dist/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     </section>
 </body>
+
 </html>

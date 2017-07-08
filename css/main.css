@@ -1,5 +1,4 @@
-body
-{
+body {
     padding-top: 51px;
     background: linear-gradient(white, #F3F3F3)
     color: white;
@@ -11,38 +10,14 @@ body
     background-color: white;
 }
 
-.main-section button{
-
-}
 .navbar-fixed-top {
     background-color: steelblue;
     color: white;
 }
 
-
 section {
     background-color: white;
     color: white;
-}
-
-#construction {
-    color: white;
-}
-
-#construction_landing {
-    background-color: white;
-    margin: auto;
-    width: 100%;
-    border: 3px solid steelblue;
-    border-radius: 50%;
-    padding: 55px;
-        
-}
-
-#construction_landing_pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
 }
 
 footer {
@@ -197,7 +172,6 @@ footer {
 }
 
 #home_body_header {
-    margin-top: 50px;
     color: black;
     text-align: center;
 }
@@ -205,4 +179,81 @@ footer {
 #home_body_text {
     color: black;
     text-align: center;
+}
+
+.home_jumbotron {
+    height: 600px;
+}
+
+.jumbotron {
+    height: 100%;
+    background-color: white;
+    margin-bottom: 0px;
+    background-image: url(../assets/images/jumboimg.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:normal;
+    filter: blur(0.2px);
+    filter: contrast(3px);
+    border-bottom: 1px solid black;
+}
+
+
+
+.lead {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+
+#entry_header {
+    color: black;
+    text-align: center;
+    margin-top: 15%;
+}
+
+
+
+.center-block {
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+#navbrand {
+
+    max-height: 100%;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.btn {
+    margin-top: 10%;
+}
+
+.contactform {
+    color: black;
+}
+
+#headshot {
+    border-radius: 60%;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
 }
