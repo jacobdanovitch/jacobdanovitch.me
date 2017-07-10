@@ -256,4 +256,24 @@ footer {
     height: 100%;
     width: 100%;
     border: 1px solid white;
+    margin-right: 0%;
+}
+
+#datajumbo {
+    background-image: url(../assets/images/datapagejumbo.jpg);
+}
+
+.home_jumbtron {
+    height: 600px;
+}
+
+#dataparagraph {
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+#datah1 {
+    color: black;
 }

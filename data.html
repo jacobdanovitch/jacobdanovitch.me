@@ -21,9 +21,45 @@
 </head>
 
 <body>
-
-    <h1>There's nothing here!</h1>
-
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!-- inverse = color, fixed top as opposed to sticky (sticks to top, navbar follows w/ scroll)-->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img id="navbrand" src="assets/images/Danolytics_brand.png"></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li class="active"><a href="data.html">Data (coming soon)</a></li>
+                    <li><a href="https://medium.com/danolytics">Blog</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    
+    <section id="data_jumbotron" class="home_jumbtron">
+        <div class="jumbotron" id="datajumbo">
+                <div class="container hh-jumbo-container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            
+                            <h1 id="datah1">Coming soon</h1>
+                            <p id="dataparagraph">A variety of win expectancy and player valuation metrics for basketball and baseball.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
     
     <footer>
         <small>&copy; Danolytics 2017</small>

@@ -217,6 +217,7 @@
 }
 .ti-desktop:before {
 	content: "\e640";
+    color: steelblue;
 }
 .ti-cup:before {
 	content: "\e641";
@@ -484,6 +485,7 @@
 }
 .ti-id-badge:before {
 	content: "\e699";
+    color: steelblue;
 }
 .ti-hummer:before {
 	content: "\e69a";
@@ -583,6 +585,7 @@
 }
 .ti-bar-chart:before {
 	content: "\e6ba";
+    color: steelblue;
 }
 .ti-bar-chart-alt:before {
 	content: "\e6bb";

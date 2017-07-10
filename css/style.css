@@ -36,10 +36,9 @@ a:hover, a:focus, a:active, a:visited {
 	background-color: #dd5138;
 	color: #fff;
 }
-.btn-yellow {
-	background-color: #fcd93b;
-	color: #2a2a2a;
-	opacity: 0.8;
+.btn-blue {
+	background-color: steelblue;
+	color: white;
 }
 .btn-yellow:hover {
 	opacity: 1;
@@ -108,10 +107,11 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	background: #016cc7;
-	min-height: 600px;
-	padding: 5em;
-	color: #fff;
+	background: steelblue;
+	min-height: 500px;
+	padding: 2em;
+	color: white;
+    border-bottom: 1px solid black;
 }
 .hero-header h1 {
 	margin: 1em 0 0 0;
