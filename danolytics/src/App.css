@@ -1,0 +1,33 @@
+.home {
+    text-align: center;
+    background-color: black;
+    font-family: sans-serif, "Arial";
+    padding-top: 3%;
+}
+
+.splash-pic {
+    background-image: url('./splash.jpg');
+    background-size: cover;
+    padding: 20px;
+    color: black;
+    height: 600px;
+    background-color: white;
+    justify-content: center;
+}
+
+.resume-button {
+    color: #3e5fb3;
+    font-size: 16px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #3e5fb3 2px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.resume-button:hover {
+    background: #3e5fb3;
+    color: white;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
