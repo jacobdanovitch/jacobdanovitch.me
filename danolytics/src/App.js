@@ -1,7 +1,12 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import './App.css'
 import Main from './Main'
-import Header from './Navbar'
+
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+import './imgs/devicon-master/devicon-colors.css'
+import './Global.css'
+import SideBar from './Navbar'
 
 class App extends Component {
     constructor() {
@@ -11,15 +16,13 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                <Header/>
-                {this.props.children}
-                <Main />
+            <div className="global">
+
+                <Main/>
             </div>
         );
     }
 }
 
-//removed <Footer /> from render return
 
 export default App;

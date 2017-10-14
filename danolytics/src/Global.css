@@ -1,0 +1,13 @@
+html, body, .global {
+    height: 100%;
+    font-family: "Droid Sans", "Lato", sans-serif;
+}
+
+.global{
+}
+
+
+a:link, a:visited, a:hover, a:active, .panel, a {
+    text-decoration: none;
+    color: inherit;
+}
