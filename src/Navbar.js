@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Nav.css'
 import headshot from './imgs/headshot.jpg'
-import {Image, MenuItem} from 'react-bootstrap'
+import {Image} from 'react-bootstrap'
 import Icon from 'react-icons-kit'
 import {mail} from 'react-icons-kit/icomoon/mail'
 import {github} from 'react-icons-kit/icomoon/github'

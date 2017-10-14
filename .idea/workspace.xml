@@ -2,27 +2,608 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccebd43-a8dd-462c-a5a6-26e0e6682217" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danolytics/src/About.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danolytics/src/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danolytics/src/Education.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danolytics/src/Global.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danolytics/src/Nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danolytics/src/Projects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danolytics/src/Skills.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/danolytics/src/animation.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/splash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/documents/Jacob Danovitch Resume.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Danolytics logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Danolytics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Danolytics_brand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/analyticsicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bdu-logo-centre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/brain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/codeicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/datapagejumbo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/donaldson.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/headshot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jumboimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/medimo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/motus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/stemf-data-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/studenticon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/votto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/dosis-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/themify-icons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/public/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/About.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/About.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/App.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/App.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/App.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Education.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Navbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Projects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/Skills.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/about.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/animation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/IMG_20170917_122816.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/R_logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/SQLite_logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/aboutme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/algebraicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/calculusicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/carleton.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/carletonlogo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/ccss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/cprt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/csicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/devicon-colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/devicon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/devicon.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/devicon.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/fonts/devicon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/fonts/devicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/fonts/devicon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/fonts/devicon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icomoon.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/amazonwebservices/amazonwebservices-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/amazonwebservices/amazonwebservices.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/android/android-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/android/android-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/android/android-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/android/android-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/android/android.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/angularjs/angularjs-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/angularjs/angularjs-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/angularjs/angularjs-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/angularjs/angularjs-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/angularjs/angularjs.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apache/apache-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apache/apache-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apache/apache-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apache/apache-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apache/apache-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apache/apache-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apache/apache.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/appcelerator/appcelerator-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/appcelerator/appcelerator-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/appcelerator/appcelerator-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/appcelerator/appcelerator.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apple/apple-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/apple/apple.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/atom/atom-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/atom/atom-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/atom/atom.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/babel/babel-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/babel/babel-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/babel/babel.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/backbonejs/backbonejs-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/backbonejs/backbonejs-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/backbonejs/backbonejs-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/backbonejs/backbonejs-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/backbonejs/backbonejs.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/behance/behance-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/behance/behance-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/behance/behance-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/behance/behance-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/behance/behance.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bitbucket/bitbucket-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bitbucket/bitbucket-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bitbucket/bitbucket.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bootstrap/bootstrap-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bootstrap/bootstrap-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bootstrap/bootstrap.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bower/bower-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bower/bower-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bower/bower-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bower/bower-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bower/bower-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bower/bower-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/bower/bower.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/c/c-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/c/c-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/c/c-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/c/c.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cakephp/cakephp-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cakephp/cakephp-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cakephp/cakephp-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cakephp/cakephp-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cakephp/cakephp.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ceylon/ceylon-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ceylon/ceylon-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ceylon/ceylon-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ceylon/ceylon-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ceylon/ceylon.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/chrome/chrome-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/chrome/chrome-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/chrome/chrome-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/chrome/chrome-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/chrome/chrome.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/codeigniter/codeigniter-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/codeigniter/codeigniter-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/codeigniter/codeigniter.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/coffeescript/coffeescript-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/coffeescript/coffeescript-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/coffeescript/coffeescript.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/confluence/confluence-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/confluence/confluence-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/confluence/confluence.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/couchdb/couchdb-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/couchdb/couchdb-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/couchdb/couchdb-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/couchdb/couchdb-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/couchdb/couchdb.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cplusplus/cplusplus-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cplusplus/cplusplus-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cplusplus/cplusplus-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cplusplus/cplusplus.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/csharp/csharp-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/csharp/csharp-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/csharp/csharp-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/csharp/csharp.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/css3/css3-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/css3/css3-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/css3/css3-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/css3/css3-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/css3/css3.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cucumber/cucumber-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/cucumber/cucumber-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/d3js/d3js-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/d3js/d3js-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/d3js/d3js.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/debian/debian-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/debian/debian-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/debian/debian-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/debian/debian-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/debian/debian.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/devicon/devicon-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/devicon/devicon-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/devicon/devicon-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/devicon/devicon-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/devicon/devicon.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/django/django-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/django/django-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/django/django-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/django/django.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/docker/docker-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/docker/docker-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/docker/docker-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/docker/docker-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/docker/docker.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/doctrine/doctrine-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/doctrine/doctrine-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/doctrine/doctrine-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/doctrine/doctrine-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/doctrine/doctrine-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/doctrine/doctrine-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/doctrine/doctrine.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/dot-net/dot-net-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/dot-net/dot-net-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/dot-net/dot-net-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/dot-net/dot-net-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/dot-net/dot-net.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/drupal/drupal-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/drupal/drupal-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/drupal/drupal-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/drupal/drupal-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/drupal/drupal.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/electron/electron-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/electron/electron-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/electron/electron.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/elm/elm-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/elm/elm-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/elm/elm-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/elm/elm-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/elm/elm.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ember/ember-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ember/ember.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/erlang/erlang-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/erlang/erlang-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/erlang/erlang-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/erlang/erlang-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/erlang/erlang.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/facebook/facebook-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/facebook/facebook-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/facebook/facebook.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/firefox/firefox-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/firefox/firefox-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/firefox/firefox-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/firefox/firefox-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/firefox/firefox.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/foundation/foundation-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/foundation/foundation-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/foundation/foundation-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/foundation/foundation-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/foundation/foundation.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gatling/gatling-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gatling/gatling-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gimp/gimp-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gimp/gimp-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gimp/gimp-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gimp/gimp-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gimp/gimp.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/git/git-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/git/git-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/git/git-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/git/git-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/git/git.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/github/github-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/github/github-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/github/github.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gitlab/gitlab-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gitlab/gitlab-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gitlab/gitlab-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gitlab/gitlab-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gitlab/gitlab.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/go/go-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/go/go-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/go/go-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/go/go.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/google/google-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/google/google-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/google/google-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/google/google-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/google/google.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gradle/gradle-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gradle/gradle-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/grunt/grunt-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/grunt/grunt-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/grunt/grunt-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/grunt/grunt-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/grunt/grunt-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/grunt/grunt-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/grunt/grunt.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gulp/gulp-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/gulp/gulp.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/handlebars/handlebars-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/handlebars/handlebars-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/handlebars/handlebars.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/heroku/heroku-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/heroku/heroku-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/heroku/heroku-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/heroku/heroku-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/heroku/heroku.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/html5/html5-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/html5/html5-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/html5/html5-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/html5/html5-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/html5/html5.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ie10/ie10-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ie10/ie10.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/illustrator/illustrator-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/illustrator/illustrator-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/illustrator/illustrator.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/inkscape/inkscape-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/inkscape/inkscape-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/inkscape/inkscape-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/inkscape/inkscape-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/inkscape/inkscape.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/intellij/intellij-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/intellij/intellij-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/intellij/intellij-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/intellij/intellij-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/intellij/intellij.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ionic/ionic-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ionic/ionic-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ionic/ionic.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jasmine/jasmine-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jasmine/jasmine-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jasmine/jasmine.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/java/java-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/java/java-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/java/java-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/java/java-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/java/java.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/javascript/javascript-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/javascript/javascript-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/javascript/javascript.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jeet/jeet-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jeet/jeet-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jeet/jeet-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jeet/jeet-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jeet/jeet.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jetbrains/jetbrains-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jetbrains/jetbrains-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jetbrains/jetbrains.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jquery/jquery-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jquery/jquery-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jquery/jquery-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jquery/jquery-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/jquery/jquery.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/krakenjs/krakenjs-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/krakenjs/krakenjs-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/krakenjs/krakenjs-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/krakenjs/krakenjs-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/krakenjs/krakenjs.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/laravel/laravel-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/laravel/laravel-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/laravel/laravel.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/less/less-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/less/less.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/linkedin/linkedin-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/linkedin/linkedin-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/linkedin/linkedin-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/linkedin/linkedin-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/linkedin/linkedin.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/linux/linux-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/linux/linux-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/linux/linux.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/meteor/meteor-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/meteor/meteor-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/meteor/meteor-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/meteor/meteor-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/meteor/meteor.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mocha/mocha-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mocha/mocha.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mongodb/mongodb-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mongodb/mongodb-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mongodb/mongodb-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mongodb/mongodb-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mongodb/mongodb.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/moodle/moodle-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/moodle/moodle-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/moodle/moodle-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/moodle/moodle-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/moodle/moodle.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mysql/mysql-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mysql/mysql-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mysql/mysql-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mysql/mysql-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/mysql/mysql.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nginx/nginx-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nginx/nginx.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodejs/nodejs-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodejs/nodejs-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodejs/nodejs-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodejs/nodejs-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodejs/nodejs.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodewebkit/nodewebkit-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodewebkit/nodewebkit-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodewebkit/nodewebkit-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodewebkit/nodewebkit-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodewebkit/nodewebkit-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodewebkit/nodewebkit-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/nodewebkit/nodewebkit.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/npm/npm-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/npm/npm.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/oracle/oracle-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/oracle/oracle.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/photoshop/photoshop-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/photoshop/photoshop-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/photoshop/photoshop.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/php/php-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/php/php-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/php/php.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/phpstorm/phpstorm-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/phpstorm/phpstorm-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/phpstorm/phpstorm-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/phpstorm/phpstorm-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/phpstorm/phpstorm.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/postgresql/postgresql-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/postgresql/postgresql-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/postgresql/postgresql-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/postgresql/postgresql-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/postgresql/postgresql.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/protractor/protractor-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/protractor/protractor-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/pycharm/pycharm-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/pycharm/pycharm-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/pycharm/pycharm-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/pycharm/pycharm-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/pycharm/pycharm.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/python/python-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/python/python-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/python/python-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/python/python-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/python/python.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rails/rails-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rails/rails-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rails/rails-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rails/rails.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/react/react-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/react/react-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/react/react.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redhat/redhat-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redhat/redhat-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redhat/redhat-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redhat/redhat-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redhat/redhat.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redis/redis-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redis/redis-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redis/redis-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redis/redis-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/redis/redis.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ruby/ruby-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ruby/ruby-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ruby/ruby-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ruby/ruby-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ruby/ruby.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rubymine/rubymine-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rubymine/rubymine-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rubymine/rubymine-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rubymine/rubymine-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/rubymine/rubymine.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/safari/safari-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/safari/safari-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/safari/safari-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/safari/safari-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/safari/safari-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/safari/safari-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/safari/safari.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sass/sass-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sass/sass.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sequelize/sequelize-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sequelize/sequelize-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sequelize/sequelize-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sequelize/sequelize-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sequelize/sequelize.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sketch/sketch-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sketch/sketch-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sketch/sketch-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sketch/sketch-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sketch/sketch.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/slack/slack-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/slack/slack-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/slack/slack-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/slack/slack-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/slack/slack.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sourcetree/sourcetree-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sourcetree/sourcetree-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/sourcetree/sourcetree.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ssh/ssh-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ssh/ssh-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ssh/ssh.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/stylus/stylus-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/stylus/stylus.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/swift/swift-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/swift/swift-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/swift/swift-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/swift/swift-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/swift/swift.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/symfony/symfony-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/symfony/symfony-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/symfony/symfony.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/tomcat/tomcat-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/tomcat/tomcat-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/tomcat/tomcat-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/tomcat/tomcat-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/tomcat/tomcat.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/travis/travis-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/travis/travis-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/travis/travis.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/trello/trello-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/trello/trello-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/trello/trello.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/twitter/twitter-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/twitter/twitter.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/typescript/typescript-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/typescript/typescript-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/typescript/typescript.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ubuntu/ubuntu-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ubuntu/ubuntu-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/ubuntu/ubuntu.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vagrant/vagrant-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vagrant/vagrant-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vagrant/vagrant-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vagrant/vagrant-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vagrant/vagrant.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vim/vim-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vim/vim-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vim/vim.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/visualstudio/visualstudio-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/visualstudio/visualstudio-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/visualstudio/visualstudio.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vuejs/vuejs-line-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vuejs/vuejs-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vuejs/vuejs-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vuejs/vuejs-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vuejs/vuejs-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vuejs/vuejs-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/vuejs/vuejs.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webpack/webpack-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webpack/webpack-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webpack/webpack-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webpack/webpack-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webpack/webpack.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webstorm/webstorm-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webstorm/webstorm-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webstorm/webstorm-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webstorm/webstorm-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/webstorm/webstorm.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/windows8/windows8-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/windows8/windows8-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/windows8/windows8.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/wordpress/wordpress-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/wordpress/wordpress-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/wordpress/wordpress-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/wordpress/wordpress.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/yarn/yarn-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/yarn/yarn-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/yarn/yarn.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/yii/yii-original-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/yii/yii-original.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/yii/yii-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/yii/yii-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/yii/yii.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/zend/zend-plain-wordmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/zend/zend-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/icons/zend/zend.eps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/devicon-master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/discreteicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/headshot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/htn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/medimo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/mlb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/python.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/sf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/sidebar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/skillsbg.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/imgs/splash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/src/registerServiceWorker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danolytics/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/dosis/3isE9muMMOq1K7TQ7HkKvIDGDUGfDkXyfkzVDelzfFk.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/dosis/O6SOu9hYsPHTU43R17NS5XYhjbSpvc47ee6xR_80Hnw.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/dosis/RPKDmaFi75RJkvjWaDDb0nYhjbSpvc47ee6xR_80Hnw.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/dosis/VK-RlLrn4NFhRGqPkj6IwBkAz4rYn47Zy2rvigWQf6w.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/dosis/oaBFj7Fz9Y9_eW3k9Jd9X6CWcynf_cDxXwCLxiixG1c.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/themify.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/themify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/themify.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/themify.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/scrolling-nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/validator.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/package-lock.json" afterPath="$PROJECT_DIR$/danolytics/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/package.json" afterPath="$PROJECT_DIR$/danolytics/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/public/index.html" afterPath="$PROJECT_DIR$/danolytics/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/src/App.css" afterPath="$PROJECT_DIR$/danolytics/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/src/App.js" afterPath="$PROJECT_DIR$/danolytics/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/src/Home.js" afterPath="$PROJECT_DIR$/danolytics/src/Home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/src/Main.js" afterPath="$PROJECT_DIR$/danolytics/src/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/src/Navbar.js" afterPath="$PROJECT_DIR$/danolytics/src/Navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/src/index.js" afterPath="$PROJECT_DIR$/danolytics/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danolytics/yarn.lock" afterPath="$PROJECT_DIR$/danolytics/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,38 +616,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/danolytics/src/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="12" column="98" lean-forward="true" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Nav.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/danolytics/src/Nav.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="116" column="1" lean-forward="false" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/danolytics/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="1" column="73" lean-forward="false" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,26 +675,26 @@
         <option value="$PROJECT_DIR$/danolytics/src/about.json" />
         <option value="$PROJECT_DIR$/danolytics/src/Project.js" />
         <option value="$PROJECT_DIR$/danolytics/src/Main.css" />
-        <option value="$PROJECT_DIR$/danolytics/src/Global.css" />
         <option value="$PROJECT_DIR$/danolytics/public/index.html" />
         <option value="$PROJECT_DIR$/danolytics/src/Popup.js" />
         <option value="$PROJECT_DIR$/danolytics/src/Projects.js" />
         <option value="$PROJECT_DIR$/danolytics/src/Routing.js" />
         <option value="$PROJECT_DIR$/danolytics/src/Bio.js" />
         <option value="$PROJECT_DIR$/danolytics/src/PageShell.js" />
-        <option value="$PROJECT_DIR$/danolytics/src/index.js" />
         <option value="$PROJECT_DIR$/danolytics/src/Main.js" />
         <option value="$PROJECT_DIR$/danolytics/src/animation.css" />
-        <option value="$PROJECT_DIR$/danolytics/src/App.js" />
         <option value="$PROJECT_DIR$/danolytics/src/App.css" />
-        <option value="$PROJECT_DIR$/danolytics/src/Navbar.js" />
-        <option value="$PROJECT_DIR$/danolytics/src/Home.js" />
-        <option value="$PROJECT_DIR$/danolytics/src/About.js" />
         <option value="$PROJECT_DIR$/danolytics/src/Education.js" />
         <option value="$PROJECT_DIR$/danolytics/src/About.css" />
         <option value="$PROJECT_DIR$/danolytics/src/Skills.js" />
         <option value="$PROJECT_DIR$/danolytics/src/Nav.css" />
+        <option value="$PROJECT_DIR$/danolytics/src/Home.js" />
         <option value="$PROJECT_DIR$/danolytics/package.json" />
+        <option value="$PROJECT_DIR$/danolytics/src/About.js" />
+        <option value="$PROJECT_DIR$/danolytics/src/App.js" />
+        <option value="$PROJECT_DIR$/danolytics/src/Global.css" />
+        <option value="$PROJECT_DIR$/danolytics/src/index.js" />
+        <option value="$PROJECT_DIR$/danolytics/src/Navbar.js" />
       </list>
     </option>
   </component>
@@ -162,7 +712,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/danolytics/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-16" />
@@ -188,7 +738,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,37 +745,11 @@
               <item name="jacobdanovitch.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="jacobdanovitch.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jacobdanovitch.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jacobdanovitch.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jacobdanovitch.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jacobdanovitch.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="danolytics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jacobdanovitch.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jacobdanovitch.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="danolytics" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jacobdanovitch.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jacobdanovitch.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="danolytics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jacobdanovitch.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jacobdanovitch.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,26 +789,26 @@
       <workItem from="1507335102390" duration="44409000" />
       <workItem from="1507648194976" duration="16641000" />
       <workItem from="1507769485922" duration="27656000" />
-      <workItem from="1507912652987" duration="41949000" />
+      <workItem from="1507912652987" duration="43516000" />
+      <workItem from="1508016305302" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180060000" />
+    <option name="totallyTimeSpent" value="181929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3424179" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34451434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -326,386 +849,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/danolytics/src/About.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="53" column="35" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="69" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/About.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10000">
-          <caret line="200" column="22" lean-forward="false" selection-start-line="200" selection-start-column="22" selection-end-line="200" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1342">
-          <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/danolytics/src/About.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Navbar.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Nav.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/About.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/About.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Navbar.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Home.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/about.html" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/about.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/about.html" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/registerServiceWorker.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css" />
     <entry file="file://$PROJECT_DIR$/danolytics/about.json" />
     <entry file="file://$PROJECT_DIR$/danolytics/src/info.js" />
-    <entry file="file://$PROJECT_DIR$/danolytics/src/about.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/danolytics/src/about.json" />
     <entry file="file://$PROJECT_DIR$/danolytics/src/Project.js" />
     <entry file="file://$PROJECT_DIR$/danolytics/src/Main.css" />
-    <entry file="file://$PROJECT_DIR$/danolytics/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1463">
-          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Bio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/PageShell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/animation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="59" column="48" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="63" column="77" lean-forward="false" selection-start-line="63" selection-start-column="77" selection-end-line="63" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Education.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/About.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="117" column="1" lean-forward="false" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="20" column="100" lean-forward="false" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Skills.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="12" column="98" lean-forward="true" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/src/Nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="116" column="1" lean-forward="false" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/danolytics/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="1" column="73" lean-forward="false" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/danolytics/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/danolytics/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/danolytics/yarn.lock" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Routing.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Bio.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/PageShell.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/animation.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/About.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Nav.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/About.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/package.json" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Education.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Error.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Global.css" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Home.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Main.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Navbar.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Projects.js" />
+    <entry file="file://$PROJECT_DIR$/danolytics/src/Skills.js" />
   </component>
 </project>

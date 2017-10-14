@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { withRouter, Link } from 'react-router-dom'
-import { Bootstrap, Jumbotron, Button, PageHeader } from 'react-bootstrap';
+import { Jumbotron, Button, PageHeader } from 'react-bootstrap';
 import './App.css';
 
 class Home extends Component {
