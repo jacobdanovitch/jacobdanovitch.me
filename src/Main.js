@@ -8,6 +8,9 @@ import {Skills} from './Skills'
 import Education from './Education'
 import {CSSTransition, TransitionGroup} from 'react-transition-group'
 import './animation.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+import './imgs/devicon-master/devicon-colors.css'
 
 import SideBar from './Navbar'
 
