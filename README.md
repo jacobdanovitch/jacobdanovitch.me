@@ -18,11 +18,12 @@ Github Pages doesn't play nicely with client-side routing, so I migrated (with s
 
 ## Remaining Work to be Done
 
-*Restyling the experience page to be more stand-alone
-*Adding a nicer way to navigate between sublevels of the About section
-*Adding several other pages 
-*Restyling popups/overlays
-*Adding loading screens
-*Fixing transitions (problem with the pathname splitting + nested about/ routes)
-*Creating my own favicon
-*Hosting projects
+
+* Restyling the experience page to be more stand-alone
+* Adding a nicer way to navigate between sublevels of the About section
+* Adding several other pages 
+* Restyling popups/overlays
+* Adding loading screens
+* Fixing transitions (problem with the pathname splitting + nested about/ routes)
+* Creating my own favicon
+* Hosting projects
