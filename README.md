@@ -1,4 +1,4 @@
-# [jacobdanovitch.me](jacobdanovitch.me)
+# [jacobdanovitch.me](http://jacobdanovitch.me)
 
 This is a repository for my personal website.
 
@@ -14,7 +14,7 @@ Creating a complex, one-page, multi-component web app taught me a lot about gett
 
 ### Surge
 
-Github Pages doesn't play nicely with client-side routing, so I migrated (with some effort; Github pages is a bit clingy) to [Surge.sh](surge.sh). Surge is an excellent, free host for static websites, and provided superb assistance in the migration process. 
+Github Pages doesn't play nicely with client-side routing, so I migrated (with some effort; Github pages is a bit clingy) to [Surge.sh](https://surge.sh). Surge is an excellent, free host for static websites, and provided superb assistance in the migration process. 
 
 ## Remaining Work to be Done
 
