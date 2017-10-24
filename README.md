@@ -12,6 +12,8 @@ To give my site the feel of a React app, I used React-Router to reduce loading t
 
 Creating a complex, one-page, multi-component web app taught me a lot about getting creative with HTML and CSS. I used React-Bootstrap's excellent bootstrap wrapper, but had to get very resourceful at times in overwriting many properties. 
 
+Since my initial commit, I have added Material-UI components, which have proved very easy to use and look great.
+
 ### Surge
 
 Github Pages doesn't play nicely with client-side routing, so I migrated (with some effort; Github pages is a bit clingy) to [Surge.sh](https://surge.sh). Surge is an excellent, free host for static websites, and provided superb assistance in the migration process. 
