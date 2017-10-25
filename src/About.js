@@ -5,7 +5,7 @@ class About extends Component {
     render() {
         return (
             <div className="about">
-                <h1 style={{paddingTop: "2%"}}><strong>I'm Jacob Danovitch.</strong></h1>
+                <h1 style={{paddingTop: "2%"}}>I'm <strong>Jacob Danovitch.</strong></h1>
                 <p style={{paddingTop: "3%"}}>I'm studying at the <strong>University of Carleton.</strong></p>
                 <p>I'm an aspiring <strong>data scientist</strong> with an interest in deep learning.</p>
                 <p>I also have experience with <strong> front</strong> and <strong>back-end </strong> development.

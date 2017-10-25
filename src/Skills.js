@@ -45,9 +45,9 @@ export class Skills extends Component {
                 <h3>Data Science</h3>
                 <Row>
                     <Popup img={IconPython} title="Python"
-                           description="I've completed extensive coursework and projects in Python, while achieving an extremely high mark in Computer Science I using the language."/>
+                           description="I've completed many projects in Python, and achieved an extremely high mark in Computer Science I. Experience with pandas, numpy, sk-learn, matplotlib, Jupyter, BeautifulSoup, and more."/>
                     <Popup img={IconR} title="R"
-                           description="R was one of the first languages I picked up, and began my foray into data science. I created many sports data analysis projects in R when I was younger; it's one of my most comfortable languages."/>
+                           description="R was one of the first languages I picked up, and began my foray into data science. Comfortable with tidyverse packages, RSQLite, and more."/>
                     <Popup img={IconSQLite} title="SQLite"
                            description="I used SQLite in my largest project, analyzing win expectancy in baseball. SQLite was difficult, but taught me valuable lessons about data cleaning and procesing that will serve me well."/>
                 </Row>

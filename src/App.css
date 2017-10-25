@@ -46,7 +46,7 @@
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
-    filter: blur(3px) opacity(85%) brightness(90%) grayscale(25%);
+    filter: blur(3px) opacity(85%) brightness(80%);
 }
 
 .jumbotron{
@@ -59,22 +59,26 @@
     font-weight: bold !important;
     text-shadow: 2px 2px 2px #323b55 !important;
     color: white !important;
+    font-family: "Work Sans", sans-serif;
 }
 
 .resume-button {
-    color: #3e5fb3;
+    font-family: "Lato Light", sans-serif;
+    font-variant: small-caps;
+    color: #ffffff;
     font-size: 16px;
-    background: #ffffff;
+    background: #3e5fb3;
     padding: 10px 20px 10px 20px;
     border: solid #3e5fb3 2px;
     border-radius: 6px;
     text-decoration: none;
+    box-shadow: inset 0 0 0 4px #3e5fb3;
 }
 
 .resume-button:hover, .resume-button:active, .resume-button:focus {
-    background: #3e5fb3;
-    color: white;
-    transition: all .3s ease-in-out;
+    background: #ffffff;
+    color: #3e5fb3;
+    transition: all .2s ease-in-out;
     text-decoration: none;
-    box-shadow: inset 0 0 0 4px #3e5fb3;
+    box-shadow: inset 0 0 0 1px #3e5fb3;
 }

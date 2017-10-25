@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {List, ListItem} from 'material-ui/List';
+import Avatar from 'material-ui/Avatar'
 import './Nav.css'
 import headshot from './imgs/headshot.jpg'
 import {Image} from 'react-bootstrap'
@@ -7,22 +9,27 @@ import {mail} from 'react-icons-kit/icomoon/mail'
 import {github} from 'react-icons-kit/icomoon/github'
 import {linkedin} from 'react-icons-kit/icomoon/linkedin'
 import {NavLink} from 'react-router-dom'
+import Home from 'material-ui/svg-icons/action/home'
+import Me from 'material-ui/svg-icons/action/account-circle'
+import Portfolio from 'material-ui/svg-icons/notification/folder-special'
+import Skills from 'material-ui/svg-icons/device/developer-mode'
+import Education from 'material-ui/svg-icons/editor/functions'
+import Arrow from 'material-ui/svg-icons/hardware/keyboard-arrow-up'
 
 class SideBar extends Component {
     render() {
 
-        const active = {
-            content: " ",
-            display: "block",
-            position: "absolute",
-            width: 0,
-            height: 0,
-            borderTop: "9px solid transparent",
-            borderBottom: "9px solid transparent",
-            borderRight: "8px solid #fff",
-            bottom: "6px",
-            left: "auto",
-            right: 0
+        const menu = {
+            fontSize: "12px",
+            fontWeight: "bolder",
+            lineHeight: "1px"
+        };
+
+        const menuIcon = {
+            width: 45,
+            height: 45,
+            backgroundColor: "transparent",
+            top: -1
         };
 
         return (
@@ -35,7 +42,7 @@ class SideBar extends Component {
                         </div>
                         <div className="person-content">
                             <h1 className="person-title">Jacob Danovitch</h1>
-                            <h2 className="person-subtitle">Data Scientist</h2>
+                            <h2 className="person-subtitle">Data Scientist | Software Dev</h2>
                         </div>
                     </div>
                     <nav className="block main-navigation">
@@ -56,23 +63,31 @@ class SideBar extends Component {
                             </div>
                         </div>
                         <div className="navigation-extendable">
-                            <ul>
-                                <li><NavLink exact to="/home" activeClassName="current">Home</NavLink></li>
-                                <li><NavLink exact to="/about" activeClassName="current">About Me</NavLink>
-                                    <ul>
-                                        <li><NavLink exact to="/about/projects"
-                                                     activeClassName="current">Projects</NavLink></li>
-                                        <li><NavLink exact to="/about/skills" activeClassName="current">Skills</NavLink>
-                                        </li>
-                                        <li><NavLink exact to="/about/education"
-                                                     activeClassName="current">Education</NavLink></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <List>
+                                <ListItem
+                                    style={menu}
+                                    containerElement={<NavLink activeClassName="active" exact to="/home" />}
+                                    leftAvatar={<Avatar style={menuIcon} icon={<Home/>}/>}>
+                                    <NavLink exact to="/home">Home</NavLink>
+                                </ListItem>
+                                <ListItem initiallyOpen={true}
+                                          style={menu}
+                                          containerElement={<NavLink exact to="/about" />}
+                                          leftAvatar={<Avatar style={menuIcon} icon={<Me />}/>}
+                                          rightIcon={<Arrow style={{fill:"white", top:"-1"}}/>}
+                                          nestedItems={[
+                                              <ListItem style={menu} containerElement={<NavLink exact to="/about/portfolio" />} leftAvatar={<Avatar style={menuIcon} icon={<Portfolio />} />}><NavLink exact to="/about/portfolio">Portfolio</NavLink></ListItem>,
+                                              <ListItem style={menu} containerElement={<NavLink exact to="/about/skills" />} leftAvatar={<Avatar style={menuIcon} icon={<Skills />} />}><NavLink exact to="/about/skills">Skills</NavLink></ListItem>,
+                                              <ListItem style={menu} containerElement={<NavLink exact to="/about/education" />} leftAvatar={<Avatar style={menuIcon} icon={<Education />} />}><NavLink exact to="/about/education">Education</NavLink></ListItem>
+                                          ]}
+                                >
+                                    <NavLink exact to="/about">About Me</NavLink>
+                                </ListItem>
+                            </List>
                         </div>
                     </nav>
                     <div className="block block-social">
-                        <div className="block-title">Get in touch</div>
+                        <div className="block-title">Contact me</div>
                         <div className="block-content">
                             <div className="social-icons">
                                 <a href="mailto:jacob.danovitch@carleton.ca" className="button button-icon"

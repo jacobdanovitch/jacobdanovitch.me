@@ -3,7 +3,7 @@ import {Route, Switch, withRouter} from 'react-router-dom'
 import Home from './Home'
 import Error from './Error'
 import About from './About'
-import {Projects} from './Projects'
+import {Portfolio} from './Portfolio'
 import {Skills} from './Skills'
 import Education from './Education'
 import {CSSTransition, TransitionGroup} from 'react-transition-group'
@@ -11,7 +11,7 @@ import './animation.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import './imgs/devicon-master/devicon-colors.css'
-
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import SideBar from './Navbar'
 
 const Main = ({location}) => {
@@ -19,7 +19,7 @@ const Main = ({location}) => {
         const timeout = { enter: 300, exit: 200 };
 
         return (
-            <div>
+            <MuiThemeProvider>
                 <SideBar/>
                 <TransitionGroup className="global">
                     <CSSTransition key={currentKey} timeout={timeout} classNames="fade" appear>
@@ -28,7 +28,7 @@ const Main = ({location}) => {
                                 <Route exact path='/' component={Home}/>
                                 <Route path='/home' component={Home}/>
                                 <Route exact path='/about' component={About}/>
-                                <Route path="/about/projects" component={Projects}/>
+                                <Route path="/about/portfolio" component={Portfolio}/>
                                 <Route path="/about/skills" component={Skills}/>
                                 <Route path="/about/education" component={Education}/>
                                 <Route component={Error}/>
@@ -36,7 +36,7 @@ const Main = ({location}) => {
                         </main>
                     </CSSTransition>
                 </TransitionGroup>
-            </div>
+            </MuiThemeProvider>
         );
 }
 
