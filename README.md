@@ -20,7 +20,7 @@ Github Pages doesn't play nicely with client-side routing, so I migrated (with s
 
 ## Remaining Work to be Done
 
-* Fix menu links (use onClick() with Link)
+* Fix active class on list iems (items not making text white if box is clicked, only if text is clicked)
 * Adding a nicer way to navigate between sublevels of the About section
 * Adding several other pages 
 * Adding loading screens
