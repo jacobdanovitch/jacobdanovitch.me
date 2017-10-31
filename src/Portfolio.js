@@ -130,10 +130,10 @@ export class Portfolio extends Component {
                         <div>
                             <h3 className="portfolio-list-subheaders"><Code/> Projects</h3>
                             <PersonalPanel imgsrc={kmeans}
-                                           title="K-Means Variant for Grouping Students"
-                                           blurb="Developing a variant on K-Means clustering to help my journalism professor group students on an assignment."
+                                           title="Clustering Algorithm for Grouping Students"
+                                           blurb="Developing a clustering algorithm to help my journalism professor group students on an assignment."
                                            description="Our midyear assignment in my journalism elective required my journalism professor to group 120 students by hand."
-                                           implemented="With the consultation of my computer science professor, I helped my journalism professor group students by using responses to a survey and implementing a variant on K-Means clustering using Hamming distance."
+                                           implemented="With the consultation of my computer science professor, I helped my journalism professor group students by using responses to a survey and implementing a clustering algorithm using Hamming distance."
                                            learned="This was my first project with a strict and short-term deadline, which taught my how to balance coding efficiently to meet deadlines, and coding robustly to create an effective result."
                                            tech="Python (pandas, numpy, sk-learn, seaborn, matplotlib)"
                             />
@@ -150,7 +150,7 @@ export class Portfolio extends Component {
                                            title="Hack The North 2017: talkaBOTit"
                                            blurb="A mental health chatbot built at Hack The North 2017 Winner of the Domain.com Best Domain Name."
                                            implemented="Implemented Python parser using Beautiful Soup to accumulate transcripts of therapy sessions, IBM Watson chatbot."
-                                           description="In my first hackathon, my group built a mental health chatbot built at Hack The North 2017 attempting to provide on-demand therapeutic assistance to make mental healthcare more accessible. Winner of the
+                                           description="In my first hackathon, my group built a mental health chatbot built at Hack The North 2017 that attempted to provide on-demand therapeutic assistance to make mental healthcare more accessible. Winner of the
                     Domain.com Best Domain Name."
                                            learned="I learned about the different kinds of chatbots, how to effectively webscrape, and the wild, crazy rides of hackathons."
                                            tech="Python, IBM Watson"

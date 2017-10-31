@@ -5,7 +5,7 @@ h1, h2, h3{
 .about:before{
     content: "";
     z-index: -1;
-    background: url("./imgs/aboutme.png") center center no-repeat;
+    background: url("./imgs/aboutme.jpg") center center no-repeat;
     background-size: cover;
     filter: opacity(50%) brightness(70%) blur(2px);
     display: block;
@@ -109,7 +109,7 @@ h1, h2, h3{
 .skill-rows:before{
     content: "";
     z-index: -1;
-    background: url('./imgs/skillsbg.jpeg') right;
+    background: url('./imgs/skillsbg.jpg') right;
     background-size: cover;
     filter: opacity(45%) brightness(60%) blur(1px);
     position: fixed;

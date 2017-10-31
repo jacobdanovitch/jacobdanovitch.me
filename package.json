@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && cd jacobdanovitch.me && MOVE 'C:/Users/jacob/Desktop/Programming/GitHub/jacobdanovitch.me/build/index.html' 'C:/Users/jacob/Desktop/Programming/GitHub/jacobdanovitch.me/build/200.html'  && surge build jacobdanovitch.me"
+    "deploy": "npm run build && copy CNAME build && cd build && copy index.html 200.html && surge"
   },
   "devDependencies": {
     "json-loader": "^0.5.7",
