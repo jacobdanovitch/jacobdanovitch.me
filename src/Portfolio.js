@@ -15,9 +15,9 @@ import medimopic from './imgs/medimo.jpg'
 import mlbpic from './imgs/mlb.jpg'
 import htn from './imgs/htn.png'
 import sf from './imgs/sf.png'
-import python from './imgs/python.png'
+import python from './imgs/python.svg'
 import ccss from './imgs/ccss.png'
-import kmeans from './imgs/kmeans.png'
+import cluster from './imgs/clustering.png'
 
 class PersonalPanel extends Component {
     state = {
@@ -129,7 +129,7 @@ export class Portfolio extends Component {
                         </div>
                         <div>
                             <h3 className="portfolio-list-subheaders"><Code/> Projects</h3>
-                            <PersonalPanel imgsrc={kmeans}
+                            <PersonalPanel imgsrc={cluster}
                                            title="Clustering Algorithm for Grouping Students"
                                            blurb="Developing a clustering algorithm to help my journalism professor group students on an assignment."
                                            description="Our midyear assignment in my journalism elective required my journalism professor to group 120 students by hand."
