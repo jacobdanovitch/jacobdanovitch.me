@@ -13,8 +13,9 @@ import Home from 'material-ui/svg-icons/action/home'
 import Me from 'material-ui/svg-icons/action/account-circle'
 import Portfolio from 'material-ui/svg-icons/notification/folder-special'
 import Skills from 'material-ui/svg-icons/device/developer-mode'
-import Education from 'material-ui/svg-icons/editor/functions'
+import Education from 'material-ui/svg-icons/social/school'
 import Arrow from 'material-ui/svg-icons/hardware/keyboard-arrow-up'
+import Tutorials from 'material-ui/svg-icons/action/class'
 
 class SideBar extends Component {
     render() {
@@ -38,7 +39,7 @@ class SideBar extends Component {
                 <div className="site-sidebar-inner">
                     <div className="person">
                         <div className="person-avatar">
-                            <Image src={headshot} alt="test" className="person-avatar" circle height={300} width={300}/>
+                            <Image src={headshot} alt="test" className="person-avatar" circle height={100} width={100}/>
                         </div>
                         <div className="person-content">
                             <h1 className="person-title">Jacob Danovitch</h1>
@@ -82,6 +83,12 @@ class SideBar extends Component {
                                           ]}
                                 >
                                     <NavLink exact to="/about">About Me</NavLink>
+                                </ListItem>
+                                <ListItem
+                                    style={menu}
+                                    containerElement={<NavLink activeClassName="active" exact to="/tutorials" />}
+                                    leftAvatar={<Avatar style={menuIcon} icon={<Tutorials/>}/>}>
+                                    <NavLink exact to="/tutorials">Tutorials</NavLink>
                                 </ListItem>
                             </List>
                         </div>

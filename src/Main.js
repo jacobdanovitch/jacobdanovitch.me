@@ -13,6 +13,8 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 import './imgs/devicon-master/devicon-colors.css'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import SideBar from './Navbar'
+import { Tutorials } from './Tutorials'
+import { KMeansWorkshop, LinearRegressionWorkshop } from './Notebooks'
 
 const Main = ({location}) => {
         const currentKey = location.pathname.split('/')[1] || '/';
@@ -31,6 +33,9 @@ const Main = ({location}) => {
                                 <Route path="/about/portfolio" component={Portfolio}/>
                                 <Route path="/about/skills" component={Skills}/>
                                 <Route path="/about/education" component={Education}/>
+                                <Route exact path="/tutorials" component={Tutorials}/>
+                                <Route path="/tutorials/k-means-workshop" component={KMeansWorkshop}/>
+                                <Route path="/tutorials/linear-regression-workshop" component={LinearRegressionWorkshop}/>
                                 <Route component={Error}/>
                             </Switch>
                         </main>

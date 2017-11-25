@@ -109,7 +109,7 @@ h1, h2, h3{
 .skill-rows:before{
     content: "";
     z-index: -1;
-    background: url('./imgs/skillsbg.jpg') right;
+    background: url('./imgs/skillsbg-compressed.jpg') right;
     background-size: cover;
     filter: opacity(45%) brightness(60%) blur(1px);
     position: fixed;
@@ -136,7 +136,7 @@ h1, h2, h3{
 .ed:before{
     content: "";
     z-index: -1;
-    background: url('./imgs/carleton.jpg') no-repeat left bottom;
+    background: url('./imgs/carleton-compressed.jpg') no-repeat left bottom;
     background-size: cover;
     filter: opacity(50%) brightness(63%) blur(2px);
     position: fixed;

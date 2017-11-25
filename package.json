@@ -1,7 +1,7 @@
 {
   "homepage": ".",
   "name": "danolytics",
-  "version": "0.1.0",
+  "version": "1.1.2",
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
@@ -10,6 +10,7 @@
     "react-addons-css-transition-group": "^15.6.2",
     "react-bootstrap": "^0.31.3",
     "react-dom": "^16.0.0",
+    "react-jupyter": "^0.1.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
     "react-transition-group": "^2.2.1"
@@ -19,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && copy CNAME build && cd build && copy index.html 200.html && surge"
+    "deploy": "npm run build && copy CNAME build && cd build && copy index.html 200.html && surge ./"
   },
   "devDependencies": {
     "json-loader": "^0.5.7",
