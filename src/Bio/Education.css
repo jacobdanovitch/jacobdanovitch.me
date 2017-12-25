@@ -1,0 +1,32 @@
+
+
+.ed:before{
+    content: "";
+    z-index: -1;
+    background: url('../Assets/imgs/carleton-compressed.jpg') no-repeat left bottom;
+    background-size: cover;
+    filter: opacity(50%) brightness(63%) blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ed{
+    z-index: 0;
+    overflow: hidden;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    font-size: larger;
+    text-align: center;
+}
+
+.ed p{
+    font-weight: lighter;
+}
+
+.modal-container{
+    z-index: 100;
+}

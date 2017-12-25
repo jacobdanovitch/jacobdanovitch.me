@@ -1,0 +1,46 @@
+h1, h2, h3{
+    font-variant: small-caps;
+}
+
+.about:before{
+    content: "";
+    z-index: -1;
+    background: url("../Assets/imgs/aboutme.jpg") center center no-repeat;
+    background-size: cover;
+    filter: opacity(50%) brightness(70%) blur(2px);
+    display: block;
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.about{
+    z-index: 0;
+    height: 600px;
+    margin-top: -2.5%;
+    color: #323b55;
+    font-size: x-large;
+    overflow: hidden;
+}
+
+.about p, .about h1{
+    padding-left: 5%;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+
+.about p > strong {
+    color: white;
+    text-shadow: 1px 1px 1px #323b55;
+}
+
+.about h1 > strong{
+    color: #323b55;
+    text-shadow: 2px 2px 2px white;
+}
+
+.row-title{
+    text-align: center;
+}

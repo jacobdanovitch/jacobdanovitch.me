@@ -1,20 +1,20 @@
 import React, {Component} from 'react'
 import {Route, Switch, withRouter} from 'react-router-dom'
-import Home from './Home'
+import Home from './Home/Home'
 import Error from './Error'
-import About from './About'
-import {Portfolio} from './Portfolio'
-import {Skills} from './Skills'
-import Education from './Education'
+import About from './Bio/About'
+import {Portfolio} from './Bio/Portfolio'
+import {Skills} from './Bio/Skills'
+import Education from './Bio/Education'
 import {CSSTransition, TransitionGroup} from 'react-transition-group'
 import './animation.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
-import './imgs/devicon-master/devicon-colors.css'
+import './Assets/imgs/devicon-master/devicon-colors.css'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import SideBar from './Navbar'
-import { Tutorials } from './Tutorials'
-import { KMeansWorkshop, LinearRegressionWorkshop } from './Notebooks'
+import SideBar from './Nav/Navbar'
+import { Tutorials } from './Tutorials/Tutorials'
+import { KMeansWorkshop, LinearRegressionWorkshop } from './Tutorials/Notebooks'
 
 const Main = ({location}) => {
         const currentKey = location.pathname.split('/')[1] || '/';
