@@ -1,24 +1,20 @@
 import React, {Component} from 'react';
-import { withRouter, Link } from 'react-router-dom'
-import { Jumbotron, Button, PageHeader } from 'react-bootstrap';
+import {withRouter} from 'react-router-dom'
+import {Button, PageHeader} from 'react-bootstrap';
 import './Home.css';
+
+//import BackgroundLogic from './BackgroundLogic'
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                <Jumbotron>
-                    <PageHeader>Hi, I'm Jacob.</PageHeader>
-                    <p>And this is why you should hire me.</p>
-                    <a href="https://goo.gl/GfhHie"><Button bsClass="resume-button" type="submit">Download Resumé</ Button></a>
-                    {/*
-                        <a href={Resume} download="Resume">
-                            <Button bsClass="resume-button" type="submit">Download Resumé</ Button>
-                        </a>
-                    */}
-                </Jumbotron>
+            <div className="home">
+                <PageHeader>Hi, I'm <strong>Jacob</strong></PageHeader>
+                <p>And this is why you should hire me.</p>
+                <a href="https://goo.gl/GfhHie"><Button bsClass="resume-button" type="submit">Download
+                    Resumé</ Button></a>
             </div>
-        );
+        )
     }
 }
 

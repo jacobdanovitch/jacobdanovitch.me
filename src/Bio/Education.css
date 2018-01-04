@@ -1,5 +1,5 @@
 
-
+/*
 .ed:before{
     content: "";
     z-index: -1;
@@ -23,6 +23,7 @@
     text-align: center;
 }
 
+
 .ed p{
     font-weight: lighter;
 }
@@ -30,3 +31,4 @@
 .modal-container{
     z-index: 100;
 }
+*/

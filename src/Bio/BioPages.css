@@ -1,0 +1,50 @@
+.bio {
+    background-color: white;
+    color: black;
+    border-top: 1px solid black;
+    font-family:  "Roboto", sans-serif !important;
+}
+
+.bio-list-item{
+}
+
+.bio .page-header{
+    text-align: center;
+    margin: 0;
+}
+
+.bio-list-subheaders, .bio-list-descriptions {
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-top: 3%;
+}
+
+.bio-list-subheaders{
+    font-weight: bold;
+    font-family: "Open Sans", "sans-serif";
+}
+
+.bio h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.bio-list-descriptions{
+    margin-top: 0
+}
+
+.bio-list-item img{
+    border: 2px solid #efefef;
+    background-color: white !important;
+}
+
+ul.nav.nav-tabs {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+ul.nav.nav-tabs > li > a > span{
+    color: black !important;
+    float: right;
+    margin-top: 3%;
+    padding-left: 2px;
+}

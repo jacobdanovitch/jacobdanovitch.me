@@ -1,22 +1,18 @@
 import React, {Component} from 'react'
 import './About.css'
+import TypeWriter from "react-typewriter/build/react-typewriter.es2015";
 
 class About extends Component {
     render() {
         return (
             <div className="about">
-                <h1 style={{paddingTop: "2%"}}>I'm <strong>Jacob Danovitch.</strong></h1>
-                <p style={{paddingTop: "3%"}}>I'm studying at the <strong>University of Carleton.</strong></p>
-                <p>I'm an aspiring <strong>data scientist</strong> with an interest in deep learning.</p>
-                <p>I also have experience with <strong> front</strong> and <strong>back-end </strong> development.
-                </p>
-                <p>I'm <strong>inquisitive by nature,</strong> teaching myself a wide array of technologies and
-                    frameworks.</p>
-                <p>I have a <strong>beautiful</strong> girlfriend who supplies artwork for this site.</p>
-                <p>Playing <strong>club basketball and baseball </strong>growing up taught me the value of teamwork.
-                </p>
-                <p>I'm passionate about <strong>mental healthcare,</strong> and how technology can improve it.</p>
-                <p>I enjoy <strong>photography</strong> and <strong>music</strong> in my spare time.</p>
+                <TypeWriter typing={1}>
+                    <h3 style={{textAlign:"left", marginLeft:"3%"}}>Hi! I'm <strong>Jacob.</strong></h3>
+                    <p style={{textAlign:"left", marginLeft:"3%", marginTop:"-0.5%", marginBottom:"3%"}}>Let me tell you a bit about myself.</p>
+                    <p>I'm studying <strong>Computer Science</strong> at <strong>Carleton University </strong> on scholarship.</p>
+                    <p>I'm an aspiring <strong>data scientist</strong> with an interest in deep learning.</p>
+                    <p>I also have experience with <strong>front</strong> and <strong>back-end</strong> development.</p>
+                </TypeWriter>
             </div>
         )
     }

@@ -1,8 +1,14 @@
 html, body, .global {
-    height: 100%;
-    font-family: "Lato",  "Droid Sans", "Open Sans", sans-serif !important;
+    font-family: "Open Sans", "Lato",  "Droid Sans", sans-serif !important;
 }
 
+.switch-wrapper {
+    position: relative;
+}
+
+.switch-wrapper > div {
+    position: absolute;
+}
 
 a:link, a:visited, a:hover, a:active, .panel, a {
     text-decoration: none;

@@ -1,3 +1,4 @@
+/*
 .skill-img{
     margin: 2%;
 }
@@ -13,26 +14,23 @@
 .skill-rows:before{
     content: "";
     z-index: -1;
-    background: url('../Assets/imgs/skillsbg-compressed.jpg') right;
-    background-size: cover;
-    filter: opacity(45%) brightness(60%) blur(1px);
+    background-color: #323b55;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
-
+*/
 .skill-rows{
     z-index: 0;
     overflow-x: hidden;
     color: white;
     font-family: "Segoe UI Light", sans-serif;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px black;
     text-align: center;
 }
 
 .skill-rows h1{
     font-family:  "Segoe UI Semilight", sans-serif;
 }
+

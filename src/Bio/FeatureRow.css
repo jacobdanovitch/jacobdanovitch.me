@@ -1,0 +1,26 @@
+[class*='row']{
+    padding-top: 2%;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #323b55;
+    color: black;
+    position: relative;
+    border-bottom: 1px solid white;
+}
+/*
+[class*='row']:hover{
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+}
+*/
+
+.panel-img:hover{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
