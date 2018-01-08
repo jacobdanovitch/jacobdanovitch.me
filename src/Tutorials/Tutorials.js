@@ -34,10 +34,8 @@ export class Tutorials extends Component {
             <div className="tutorials">
                 <PageHeader>Workshops and Tutorials</PageHeader>
                 <p>Hi there! This is a collection of my written workshops and tutorials, made either in my spare time,
-                    or for an
-                    organization like STEM Fellowship or the Carleton Computer Science Society. Right now, this page as
-                    well as the linked
-                    notebooks are works-in-progress; let me know if you find any problems with them!</p>
+                    or for an organization like STEM Fellowship or the Carleton Computer Science Society. Right now, this page as
+                    well as the linked notebooks are <strong>works-in-progress</strong>; let me know if you find any problems with them!</p>
                 {/* Separate into SF, CCSS; add explanation for each org */}
                 <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
                     <List>

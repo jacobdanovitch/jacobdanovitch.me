@@ -1,55 +1,88 @@
-import React, { Component }from 'react'
-import {Route, withRouter} from 'react-router-dom'
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
+import AnimatedCanvas from './Home/AnimatedCanvas'
 import Home from './Home/Home'
-import Error from './Error'
-import {Portfolio} from './Bio/Portfolio'
-import {Skills} from './Bio/Skills'
-import Education from './Bio/Education'
-import {AnimatedSwitch} from 'react-router-transition'
+import About from './Bio/About'
+import {Portfolio, PortfolioHeader} from './Bio/Portfolio'
+import {Skills, TechnologiesHeader} from './Bio/Skills'
+import {Education, EducationHeader} from './Bio/Education'
+import Error from "./Error";
+
+import MiniNav from './Nav/MiniNav'
+
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import './Assets/imgs/devicon-master/devicon-colors.css'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AnimatedCanvas from './Home/AnimatedCanvas'
-import {Tutorials} from './Tutorials/Tutorials'
-import {KMeansWorkshop, LinearRegressionWorkshop} from './Tutorials/Notebooks'
-import About from './Bio/About'
 
-class Main extends Component {
-    render() {
-        return (
-            <MuiThemeProvider>
-                <main className="global">
-                    <AnimatedCanvas>
-                        <Home/>
-                    </AnimatedCanvas>
-                    <AnimatedSwitch
-                        atEnter={{opacity: 0.25}}
-                        atLeave={{opacity: 1}}
-                        atActive={{opacity: 1}}
-                        mapStyles={styles => {
-                            if (styles.opacity > 1) {
-                                return {display: 'none'}
-                            }
-                            return {opacity: styles.opacity}
-                        }}
-                        className="switch-wrapper"
-                    >
-                        <Route exact path='/' component={About}/>
-                        <Route path='/home' component={About}/>
-                        <Route exact path='/about' component={About}/>
-                        <Route path="/about/portfolio" component={Portfolio}/>
-                        <Route path="/about/technologies" component={Skills}/>
-                        <Route path="/about/education" component={Education}/>
-                        <Route exact path="/tutorials" component={Tutorials}/>
-                        <Route path="/tutorials/k-means-workshop" component={KMeansWorkshop}/>
-                        <Route path="/tutorials/linear-regression-workshop" component={LinearRegressionWorkshop}/>
-                        <Route component={Error}/>
-                    </AnimatedSwitch>
-                </main>
-            </MuiThemeProvider>
-        );
+const routes = [
+    {
+        path: '/',
+        exact: true,
+        canvas: () => <Home/>,
+        body: () => <div/>
+    },
+    {
+        path: '/portfolio',
+        exact: false,
+        canvas: () => <PortfolioHeader/>,
+        body: () => <Portfolio/>
+    },
+    {
+        path: '/technologies',
+        exact: false,
+        canvas: () => <TechnologiesHeader/>,
+        body: () => <Skills/>
+    },
+    {
+        path: '/education',
+        exact: false,
+        canvas: () => <EducationHeader/>,
+        body: () => <Education/>
+    },
+    {
+        path: '',
+        exact: false,
+        canvas: () => <Home/>,
+        body: () => <Error/>
     }
-}
+];
 
-export default withRouter(Main);
+const Main = () => (
+    <Router>
+        <MuiThemeProvider>
+            <main className="global">
+                <AnimatedCanvas>
+                    <Switch>
+                        {routes.map((route, index) => (
+                            <Route
+                                key={index}
+                                path={route.path}
+                                exact={route.exact}
+                                component={route.canvas}
+                            />
+                        ))}
+                    </Switch>
+                </AnimatedCanvas>
+                <Switch>
+                    {routes.map((route, index) => (
+                        <Route
+                            key={index}
+                            path={route.path}
+                            exact={route.exact}
+                            component={route.body}
+                        />
+                    ))}
+                </Switch>
+                <div style={{display:"table", margin:"auto"}}><MiniNav/></div>
+                <div style={{color: "gray", fontSize: "x-small", textAlign: "center", marginTop: "3%"}}>
+                    <p>Jacob Danovitch</p>
+                    <p>jacob.danovitch@carleton.ca</p>
+                </div>
+            </main>
+        </MuiThemeProvider>
+    </Router>
+);
+
+export default Main

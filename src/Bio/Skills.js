@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './Skills.css'
 import FeatureRow from './FeatureRow'
-import {OverlayTrigger, PageHeader, Popover, Tabs, Tab} from 'react-bootstrap'
+import {PageHeader, Tab, Tabs} from 'react-bootstrap'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {List} from 'material-ui/List';
 import IconBootstrap from '../Assets/imgs/devicon-master/icons/bootstrap/bootstrap-plain-wordmark.svg'
@@ -23,31 +23,36 @@ import SoftwareDev from 'material-ui/svg-icons/action/important-devices'
 import Data from 'material-ui/svg-icons/social/poll'
 import ProjectManagement from 'material-ui/svg-icons/file/cloud-done'
 
-export class Popup extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
+export const TechnologiesHeader = () => {
+    return (
+        <div>
+            <PageHeader>My Technologies</PageHeader>
+            <h3>An overview of the technologies I use in my work.</h3>
+        </div>
+    )
+};
 
+class Tech extends Component {
     render() {
         return (
-            <OverlayTrigger
-                placement="top"
-                overlay={<Popover
-                    id="popover-trigger-hover-focus"
-                    title={this.props.title}>
-                    {this.props.description}
-                </Popover>}>
-                <FeatureRow
-                    htmlClass="bio-list-item"
-                    imgsrc={this.props.img}
-                    title={this.props.title}
-                    blurb={this.props.description}
-                />
-            </OverlayTrigger>
+            <FeatureRow
+                imgsrc={this.props.imgsrc}
+                title={this.props.title}
+                blurb={this.props.blurb}
+            >
+                <strong>Where I Learned It:</strong> &nbsp;
+                {this.props.where} <br/> <br/>
+                <strong>Favorite Concepts:</strong> &nbsp;
+                {this.props.concepts} <br/> <br/>
+                <strong>How Long I've Used It:</strong> &nbsp;
+                {this.props.experience} <br/> <br/>
+                <strong>Use Cases:</strong> &nbsp;
+                {this.props.uses} <br/> <br/>
+            </FeatureRow>
         )
     }
 }
+
 
 export class Skills extends Component {
     constructor(props) {
@@ -64,50 +69,112 @@ export class Skills extends Component {
     render() {
         return (
             <div className="bio">
-                <PageHeader><Technologies style={{height:"30", width:"30"}}/> My Skills</PageHeader>
+                <PageHeader><Technologies style={{height: "30", width: "30"}}/> My Technologies</PageHeader>
                 <MuiThemeProvider>
                     <Tabs activeKey={this.state.key} onSelect={this.handleSelect.bind(this)} id="">
-                        <Tab eventKey={1} title={[<SoftwareDev/>,<span>Software Development</span>]}>
+                        <Tab eventKey={1} title={[<SoftwareDev/>, <span>Software Development</span>]}>
                             <h3 className="bio-list-subheaders">Software Development</h3>
                             <List>
-                                <Popup img={IconJava} title="Java"
-                                       description="I've completed AP Computer Science using Java, and will be taking Computer Science II using it in the winter."/>
-                                <Popup img={IconReact} title="React"
-                                       description="I've built both my own and Medimo Labs' website using React. While I originally built my website in pure HTML/CSS, React's dynamic, powerful components motivated me to redo my whole site."/>
-                                <Popup img={IconJavascript} title="Javascript"
-                                       description="In building Medimo Labs' website, I learned Javascript through the React framework, which I continued using for this site."/>
-                                <Popup img={IconNpm} title="NPM"
-                                       description="I learned the basics of NPM working with Medimo Labs and beginning my work with React."/>
-                                <Popup img={IconHtml5} title="HTML5"
-                                       description="I've worked with HTML5 in building my own and Medimo Labs' websites."/>
-                                <Popup img={IconBootstrap} title="Bootstrap"
-                                       description="This website is built on React-Bootstrap!"/>
-                                <Popup img={IconCss3} title="CSS3"
-                                       description="I've used CSS3 in building both my own and Medimo Labs' website; as you can see, I'm a sucker for hover effects."/>
+                                <Tech
+                                    imgsrc={IconJava}
+                                    title="Java"
+                                    blurb="I've completed AP Computer Science using Java, and will be taking Computer Science II using it in the winter."
+                                    where="I learned Java in high school; after transferring into the class late and falling behind, I was lucky that an amazing teacher helped me catch up and become proficient enough to take AP the following year."
+                                    concepts="Abstraction, Inhreitance, Polymorphism"
+                                    experience="4 years"
+                                    uses="2 years in high school as well as COMP1406 Introduction to Computer Science II in winter 2018."
+                                />
+                                <Tech
+                                    imgsrc={IconReact}
+                                    title="React"
+                                    blurb="I've built both my own and Medimo Labs' website using the React Javascript framework."
+                                    where="I learned React working at Medimo Labs during summer 2017, working with other university-aged interns as well as students from the SHAD Valley program."
+                                    concepts="Components, Props"
+                                    experience="6 months"
+                                    uses="Building websites for Medimo Labs and myself, as well as using it during hackathons such as THacks for front-end work."
+                                />
+                                <Tech
+                                    imgsrc={IconHtml5}
+                                    title="HTML"
+                                    blurb="I've worked with HTML in building my own and Medimo Labs' websites."
+                                    where={["I taught myself HTML in summer 2017 to build my own website - the ", <strike>terrible</strike>," initial version of this website."]}
+                                    concepts="Markdown"
+                                    experience="6 months"
+                                    uses="Use within my React projects."
+                                />
+                                <Tech
+                                    imgsrc={IconCss3}
+                                    title="CSS"
+                                    blurb="I've used CSS in building both my own and Medimo Labs' website; as you can see, I'm a sucker for hover effects."
+                                    where="Learned alongside HTML when building my personal website."
+                                    concepts="Responsive design - This website is built on React-Bootstrap!"
+                                    experience="6 months"
+                                    uses="Trying to make my Reacts project aesthetically appealing and responsive - I have a long way to go!"
+                                />
                             </List>
                         </Tab>
-                        <Tab eventKey={2} title={[<Data/>,<span>Data Science</span>]}>
+                        <Tab eventKey={2} title={[<Data/>, <span>Data Science</span>]}>
                             <h3 className="bio-list-subheaders">Data Science</h3>
                             <List>
-                                <Popup img={IconPython} title="Python"
-                                       description="I've completed many projects in Python, and achieved an extremely high mark in Computer Science I. Experience with pandas, numpy, sk-learn, matplotlib, Jupyter, BeautifulSoup, and more."/>
-                                <Popup img={IconR} title="R"
-                                       description="R was one of the first languages I picked up, and began my foray into data science. Comfortable with tidyverse packages, RSQLite, and more."/>
-                                <Popup img={IconSQLite} title="SQLite"
-                                       description="I used SQLite in my largest project, analyzing win expectancy in baseball. SQLite was difficult, but taught me valuable lessons about data cleaning and procesing that will serve me well."/>
-                            </List>
+                                <Tech
+                                    imgsrc={IconPython}
+                                    title="Python"
+                                    blurb="I've completed many projects in Python, acheiving an A+ in COMP 1405 (Computer Science I). Experience with pandas, numpy, sk-learn, matplotlib, Jupyter, BeautifulSoup, and more."
+                                    where="I began to teach myself Python in grade 11 for the Canadian Computing Competition. I've learned the language at a much deeper level in my first year of university."
+                                    concepts="List Comprehension, Negative Indexing, Classes"
+                                    experience="3 years"
+                                    uses="JOUR1003 Grouping Algorithm, Baseball Neural Networks, talkaBOTit web scraper"
+                                />
+                                <Tech
+                                    imgsrc={IconR}
+                                    title="R"
+                                    blurb="R was one of the first languages I picked up, and began my foray into data science. Comfortable with tidyverse packages, RSQLite, and more."
+                                    where="I learned R by following the book 'Analyzing Baseball Data with R' in the summer of 2016 and working on my own projects."
+                                    concepts="DataFrames (<3)"
+                                    experience="1.5 years"
+                                    uses="Baseball Win Probability, Baseball Biometric Pitching Analysis"
+                                />
+                                <Tech
+                                    imgsrc={IconSQLite}
+                                    title="SQLite"
+                                    blurb="SQLite was my first experience with databases and working with large datasets."
+                                    where="I learned SQLite in my largest project, analyzing win expectancy in baseball. SQLite was difficult, but taught me valuable lessons about data cleaning and procesing that will serve me well."
+                                    concepts="Join Statements"
+                                    experience="1.5 years"
+                                    uses="Baseball Win Probability"
+                                />
+                                </List>
                         </Tab>
                         <Tab eventKey={3} title={[<ProjectManagement/>, <span>Project Management</span>]}>
                             <h3 className="bio-list-subheaders">Project Management</h3>
                             <List>
-                                <Popup img={IconGit} title="Git"
-                                       description="I learned Git when working for Medimo Labs, and have used it personally and professionally ever since."/>
-                                <Popup img={IconGithub} title="GitHub"
-                                       description="GitHub is where I keep all of my personal projects, as well as contribute to the teams I'm a part of."/>
-                                <Popup img={IconJetbrains} title="JetBrains IDEs"
-                                       description="JetBrains' awesome IDEs like Webstorm and Pycharm have helped me build many of my projects."/>
-                                <Popup img={IconSlack} title="Slack"
-                                       description="I am part of an unhealthy amount of Slack teams. Slack is an excellent communication tool, and has helped me immensely in managing projects with my teams. I recommended and instituted the use of Slack for Medimo Labs."/>
+                                <Tech
+                                    imgsrc={IconGit}
+                                    title="Git"
+                                    blurb="I learned Git when working for Medimo Labs, and have used it personally and professionally ever since."
+                                    where="I briefly learned Git in grade 12 for a small project with a friend, but learned it more in-depth with Medimo Lab, my first experience with a larger group project."
+                                    concepts="Merge Conflicts (</3)"
+                                    experience="6 months"
+                                    uses="Pretty much every project I do"
+                                />
+                                <Tech
+                                    imgsrc={IconJetbrains}
+                                    title="JetBrains IDEs"
+                                    blurb="JetBrains' awesome IDEs like WebStorm and PyCharm have helped me build many of my projects."
+                                    where="I discovered PyCharm while learning Python, and have used JetBrains IDEs ever since."
+                                    concepts="Refactoring"
+                                    experience="3 years"
+                                    uses="Pretty much every project I do"
+                                />
+                                <Tech
+                                    imgsrc={IconSlack}
+                                    title="Slack"
+                                    blurb="I am part of an unhealthy amount of Slack teams."
+                                    where="I first joined Slack for STEM Fellowship."
+                                    concepts="Channels"
+                                    experience="6 months"
+                                    uses="Implemented at Medimo Labs, used for STEM Fellowship, Carleton Computer Science Society, and many more"
+                                />
                             </List>
                         </Tab>
                     </Tabs>

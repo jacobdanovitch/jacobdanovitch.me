@@ -2,7 +2,6 @@
 .large-header {
     position: absolute;
     width: 100%;
-    overflow: hidden;
     background: #333 center center;
     background-size: cover;
     z-index: 1;
@@ -27,14 +26,13 @@
 
 #large-header{
     z-index: 0;
-    overflow: hidden;
 }
 
 .main-title {
     position: absolute;
     margin: 0;
     padding: 0;
-    color: #f9f1e9;
+    color: white !important;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -59,5 +57,13 @@
 @media only screen and (max-width : 768px) {
     .demo-1 .main-title {
         font-size: 3em;
+    }
+
+    .large-header{
+        min-height: 700px;
+    }
+
+    #demo-canvas {
+        height: 0;
     }
 }

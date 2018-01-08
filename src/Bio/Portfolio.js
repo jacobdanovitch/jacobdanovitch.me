@@ -5,9 +5,7 @@ import FeatureRow from './FeatureRow'
 import {PageHeader, Tab, Tabs} from 'react-bootstrap'
 import {NavLink} from 'react-router-dom'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import FlatButton from 'material-ui/FlatButton';
 import {List} from 'material-ui/List';
-import Dialog from 'material-ui/Dialog';
 import Code from 'material-ui/svg-icons/action/code'
 import Work from 'material-ui/svg-icons/action/work'
 import medimopic from '../Assets/imgs/medimo.jpg'
@@ -17,72 +15,47 @@ import sf from '../Assets/imgs/sf.png'
 import python from '../Assets/imgs/python.svg'
 import ccss from '../Assets/imgs/ccss.png'
 import cluster from '../Assets/imgs/clustering.png'
-import mentalhealth from '../Assets/imgs/mentalhealth.jpg'
 import data4good from '../Assets/imgs/data4good.jpg'
 import PortfolioIcon from 'material-ui/svg-icons/notification/folder-special'
+import baseballnn from '../Assets/imgs/baseballnn.png'
 
 class Project extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {open: false};
-    }
-
-    handleOpen = () => {
-        this.setState({open: true});
-    };
-
-    handleClose = () => {
-        this.setState({open: false});
-    };
-
     render() {
-        const actions = [
-            <FlatButton
-                label="Close"
-                onClick={this.handleClose}
-                labelStyle={{color: '#326098'}}
-            />
-        ];
         return (
-            <div>
-                <FeatureRow
-                    imgsrc={this.props.imgsrc}
-                    title={this.props.title}
-                    blurb={this.props.blurb}
-                    handleClick={this.handleOpen}
-                    style={{color: "black"}}
-                />
-                <MuiThemeProvider>
-                    <Dialog
-                        title={this.props.title}
-                        actions={actions}
-                        modal={false}
-                        open={this.state.open}
-                        onRequestClose={this.handleClose}
-                        titleStyle={{fontWeight: "bolder", borderBottom: "1px solid black", marginBottom: "2%"}}
-                    >
-                        <strong>What is it?</strong><br/>
-                        {this.props.description}<br/>
-                        <strong>Technology stack:</strong><br/>
-                        {this.props.tech}<br/>
-                        <strong>Focus:</strong><br/>
-                        {this.props.implemented}<br/>
-                        <strong>I learned:</strong><br/>
-                        {this.props.learned}
-                    </Dialog>
-                </MuiThemeProvider>
-            </div>
+            <FeatureRow
+                imgsrc={this.props.imgsrc}
+                title={this.props.title}
+                blurb={this.props.blurb}
+            >
+                <strong>What is it?</strong> &nbsp;
+                {this.props.description}<br/> <br/>
+                <strong>What I did/do:</strong> &nbsp;
+                {this.props.implemented}<br/> <br/>
+                <strong>Technology stack:</strong> &nbsp;
+                {this.props.tech}<br/> <br/>
+                <strong>I learned:</strong> &nbsp;
+                {this.props.learned}
+            </FeatureRow>
         )
     }
 }
 
+export const PortfolioHeader = () => {
+    return (
+        <div>
+            <PageHeader>My Portfolio</PageHeader>
+            <h3>A collection of my work experience and personal projects.</h3>
+        </div>
+    )
+};
+
 export class Portfolio extends Component {
-   constructor(props){
-       super(props);
-       this.state = {
-           key: 1
-       }
-   }
+    constructor(props) {
+        super(props);
+        this.state = {
+            key: 1
+        }
+    }
 
     handleSelect(key) {
         this.setState({key});
@@ -91,12 +64,13 @@ export class Portfolio extends Component {
     render() {
         return (
             <div className="bio">
-                <PageHeader><PortfolioIcon style={{height:"30", width:"30"}} /> My Portfolio</PageHeader>
+                <PageHeader><PortfolioIcon style={{height: "30", width: "30"}}/> My Portfolio</PageHeader>
                 <MuiThemeProvider>
                     <Tabs activeKey={this.state.key} onSelect={this.handleSelect.bind(this)} id="">
                         <Tab eventKey={1} title={[<Work/>, <span>Experience</span>]}>
                             <h3 className="bio-list-subheaders">Professional Experience</h3>
-                            <p className="bio-list-descriptions">An overview of my professional and volunteering work.</p>
+                            <p className="bio-list-descriptions">An overview of my professional and volunteering
+                                work.</p>
                             <List>
                                 <Project
                                     imgsrc={medimopic}
@@ -157,9 +131,10 @@ export class Portfolio extends Component {
                         </Tab>
                         <Tab eventKey={2} title={[<Code/>, <span>Projects</span>]}>
                             <h3 className="bio-list-subheaders">Projects</h3>
-                            <p className="bio-list-descriptions">Here are some of the side projects I've done for fun in my free time.</p>
+                            <p className="bio-list-descriptions">Here are some of the side projects I've done for fun in
+                                my free time.</p>
                             <List>
-                                <Project
+                                {/*<Project
                                     imgsrc={mentalhealth}
                                     title="Generative Mental Health Chatbot"
                                     blurb="Building a dynamic, responsive chatbot with Tensorflow to help those struggling with mental illness. "
@@ -172,13 +147,13 @@ export class Portfolio extends Component {
                                     learned="In preparation for the project, I've done research on machine learning and deep learning, as well as enrolled in Andrew
                             Ng's Machine Learning Coursera from Stanford. I also learned how to use Python for web scraping, and am developing my
                             knowledge of Tensorflow."
-                                />
+                                />*/}
                                 <Project
                                     imgsrc={cluster}
                                     title="Clustering Algorithm for Grouping Students"
                                     blurb="Developing a clustering algorithm to help my journalism professor group students on an assignment."
-                                    description="Our midyear assignment in my journalism elective required my journalism professor to group 120 students by hand."
-                                    implemented="With the consultation of my computer science professor, I helped my journalism professor group students by using responses to a survey and implementing a clustering algorithm using Hamming distance."
+                                    description="Our midyear assignment in my journalism elective required my journalism professor to group 120 students by hand. I offered to streamline this process by creating an algorithm to group students for my professor."
+                                    implemented="By using anonymized responses to a class-wide survey and implementing a clustering algorithm using Hamming distance, I implemented a reusable algorithm that saved my professor many hours while maintaining strong student performance. "
                                     learned="This was my first project with a strict and short-term deadline, which taught me how to balance coding efficiently to meet deadlines, and coding robustly to create an effective result."
                                     tech="Python (pandas, numpy, sk-learn, seaborn, matplotlib)"
                                 />
@@ -189,8 +164,18 @@ export class Portfolio extends Component {
                     players and determine optimal strategy."
                                     implemented="I implemented a Random Forest model that estimated win expectancy for any pitch given the current situation of a baseball game"
                                     description="Current win expectancy models such as those by FanGraphs or ESPN only estimate win expectancy at the plate appearance-level. Win expectancy at the pitch level would allow for extensive analysis on the impact of many in-game decisons."
-                                    learned="I learned extensively about the daunting task of data engineering; from the hours of parsing to the weeks spent cleaning. I also learned about Machine Learning by using a Random Forest model."
+                                    learned="I learned extensively about the daunting task of data engineering; from the hours of parsing to the weeks spent cleaning. I was also introduced to machine learning through the use of my Random Forest model."
                                     tech="SQLite, R (randomForest, RSQLite, dplyr, ggplot2)"
+                                />
+                                <Project
+                                    imgsrc={baseballnn}
+                                    title="Baseball Neural Networks"
+                                    blurb="Teaching myself neural network architecture through predictive modelling of baseball statistics."
+                                    description="As I read Andrew Trask's excellent 'Grokking Deep Learning' book, I've followed along by modelling baseball
+                                statistics using various architectures of neural networks built from scratch."
+                                    implemented="Multi-layered neural networks predicting ERA for pitchers with high RMSE."
+                                    learned="Following along interactively helps me learn from a book such as Trask's."
+                                    tech="Python (Numpy, Pandas)"
                                 />
                                 <Project
                                     imgsrc={htn}

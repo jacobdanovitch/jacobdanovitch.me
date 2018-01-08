@@ -2,6 +2,7 @@
     padding-bottom: 0 !important;
     margin-bottom: 0;
     font-family: "Lato", "Segoe UI", sans-serif;
+    position: absolute !important;
 }
 
 .navbar-custom {
@@ -24,8 +25,8 @@
     letter-spacing: 1px;
 }
 
-.navbar-wrapper, .navbar-custom, .navbar, .navbar-fixed-top, .navbar-inner{
-    background: rgba(255, 255, 255, 0);
+.navbar-wrapper, .navbar-custom, .navbar, .navbar-fixed-top, .navbar-static-top, .navbar-inner{
+    background: none;
 }
 
 .navbar-brand {
@@ -37,13 +38,18 @@
     color: white;
 }
 
+a.navbar-link:hover {
+    color: rgba(105, 105, 105, 0.54);
+}
 
 li > a:hover,
 li > a:focus,
 li > a::selection,
+li > a:active,
 .navbar-custom .navbar-brand a:hover,
 .navbar-custom .navbar-brand a:focus,
-.navbar-custom .navbar-brand a::selection
+.navbar-custom .navbar-brand a::selection,
+.navbar-custom .navbar-brand a:active
 {
     color: rgba(255, 255, 255, 0.75);
     background: none !important;
@@ -54,4 +60,21 @@ li > a::selection,
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
         margin-right: 10px;
     }
+}
+
+.navbar-nav > li > .dropdown-menu {
+    border: 1px solid rgba(105, 105, 105, 0.54);
+    background: none;
+}
+
+.navbar-nav > li > .dropdown-menu > li > a {
+    color: white;
+}
+
+.navbar-nav > li > .dropdown-menu > li:not(:last-child) {
+    border-bottom: 1px solid rgba(105, 105, 105, 0.54);
+}
+
+.navbar-nav > li > .dropdown-menu > li > a:hover {
+    color: rgba(222, 222, 222, 0.57);
 }

@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import { Link } from 'react-router-dom';
 import './Nav.css'
-import {MenuItem, Nav, Navbar, NavDropdown, NavItem} from 'react-bootstrap'
+import {MenuItem, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 import {LinkContainer} from 'react-router-bootstrap'
 import Icon from 'react-icons-kit'
 import {mail} from 'react-icons-kit/icomoon/mail'
@@ -10,10 +9,9 @@ import {linkedin} from 'react-icons-kit/icomoon/linkedin'
 import Home from 'material-ui/svg-icons/action/home'
 import Me from 'material-ui/svg-icons/social/person-outline'
 import Portfolio from 'material-ui/svg-icons/notification/folder-special'
-import Event from 'material-ui/svg-icons/social/share'
-import Pencil from 'material-ui/svg-icons/content/create'
 import Skills from 'material-ui/svg-icons/device/developer-mode'
 import Education from 'material-ui/svg-icons/social/school'
+import Resume from 'material-ui/svg-icons/editor/insert-drive-file'
 
 class TopNav extends Component {
     render() {
@@ -33,12 +31,12 @@ class TopNav extends Component {
             marginTop: -10,
             marginBottom: -3,
             marginLeft: -5,
-            color: 'black'
+            color: 'white'
         };
 
         return (
             <div className="navbar-wrapper">
-                <Navbar fluid fixed Top bsStyle="custom">
+                <Navbar fluid staticTop bsStyle="custom">
                     <Navbar.Header>
                         <Navbar.Brand>
                             <LinkContainer to="">
@@ -52,29 +50,32 @@ class TopNav extends Component {
                     <Navbar.Collapse>
                         <Nav>
                             <NavDropdown eventKey={1} title={[<Me style={menuIcon}/>, 'About Me']}>
-                                <LinkContainer to="/about/portfolio">
+                                <LinkContainer to="/portfolio">
                                     <MenuItem eventKey={1.1}><Portfolio style={dropdownIcon}/>Portfolio</MenuItem>
                                 </LinkContainer>
-                                <LinkContainer to="/about/technologies">
+                                <LinkContainer to="/technologies">
                                     <MenuItem eventKey={1.2}><Skills style={dropdownIcon}/>Technologies</MenuItem>
                                 </LinkContainer>
-                                <LinkContainer to="/about/education">
+                                <LinkContainer to="/education">
                                     <MenuItem eventKey={1.3}><Education style={dropdownIcon}/>Education</MenuItem>
                                 </LinkContainer>
                             </NavDropdown>
+                            <MenuItem eventKey={2} href="https://goo.gl/GfhHie"><Resume
+                                style={menuIcon}/>Resumé</MenuItem>
                             {/*
                                 <LinkContainer to="/events">
-                                <MenuItem eventKey={2}>
+                                <MenuItem eventKey={3}>
                                     <Event style={menuIcon}/> Events
                                 </MenuItem>
                             </LinkContainer>
-                                */}
-                            <NavDropdown eventKey={3} title={[<Pencil style={menuIcon}/>, "Writing"]}>
+
+                            <NavDropdown eventKey={4} title={[<Pencil style={menuIcon}/>, "Writing"]}>
                                 <LinkContainer to="/tutorials">
-                                    <MenuItem eventKey={3.1}>STEM Fellowship Workshops</MenuItem>
+                                    <MenuItem eventKey={4.1}><Wrench style={dropdownIcon}/>Workshops</MenuItem>
                                 </LinkContainer>
-                                <MenuItem eventKey={3.2} href="medium.com/danolytics">Medium.com</MenuItem>
+                                <MenuItem eventKey={4.2} href="medium.com/danolytics"><Text style={dropdownIcon}/>Medium Blog</MenuItem>
                             </NavDropdown>
+                            */}
                         </Nav>
                         <Nav pullRight>
                             <MenuItem>
