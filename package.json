@@ -1,7 +1,7 @@
 {
   "homepage": ".",
   "name": "danolytics",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "dependencies": {
     "apeman-react-showcase": "^3.0.3",
@@ -16,6 +16,7 @@
     "react-bootstrap": "^0.31.5",
     "react-canvas-component": "^0.1.5",
     "react-dom": "^16.2.0",
+    "react-emojione": "^5.0.0",
     "react-joyride": "^1.11.1",
     "react-jupyter": "^0.1.0",
     "react-konva": "^1.6.4",

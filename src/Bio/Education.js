@@ -3,6 +3,7 @@ import './FeatureRow.css'
 import './Education.css'
 import {Image, PageHeader, Tab, Tabs} from 'react-bootstrap'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import { emojify } from 'react-emojione';
 import {List} from 'material-ui/List';
 import python from '../Assets/imgs/python.svg'
 import algebra from '../Assets/imgs/algebraicon.svg'
@@ -18,10 +19,9 @@ import FeatureRow from "./FeatureRow";
 export const EducationHeader = () => {
     return (
         <PageHeader>
-            <Image src={carleton} width={100} height={100}/><strong>Honors Bachelor of Computer Science</strong>
+            <strong>Honors Bachelor of Computer Science</strong>
             <h4 className="bio-list-subheaders">
-                <strong>Co-op</strong> program | <strong>Algorithms</strong> stream | Minor in
-                <strong>Psychology</strong>
+                <strong>Co-op</strong> program | <strong>Algorithms</strong> stream | Minor in <strong>Psychology</strong>
             </h4>
         </PageHeader>
     )
@@ -61,12 +61,14 @@ export class Education extends Component {
     render() {
         return (
             <div className="bio">
-                <PageHeader>My Courses</PageHeader>
+                <PageHeader><Image src={carleton} width={100} height={100}/> My Education</PageHeader>
                 <MuiThemeProvider>
                     <Tabs activeKey={this.state.key} onSelect={this.handleSelect.bind(this)} id="">
-                        <Tab eventKey={1} title={[<YearOne/>, <span>First Year (In Progress)</span>]}>
-                            <h3 className="bio-list-subheaders"><strong>First Year</strong></h3>
-                            <h4 className="bio-list-subheaders"><strong>Winter Semester</strong></h4>
+                        <Tab eventKey={1} title={[<YearOne/>, <span>First Year (2017-18)</span>]}>
+                            <h3 className="bio-list-subheaders"><strong>First Year (2017-18)</strong></h3>
+                            <p className="bio-list-descriptions"><strong>This year, I made the Dean's Honor List for the Carleton Faculty of Science!</strong>{emojify(':tada:', {output: 'unicode'})}</p>
+                            <p className="bio-list-descriptions">These are some of the courses I've taken that are relevant to computer science.</p>
+                            <h4 className="bio-list-subheaders"><strong>Winter 2018</strong></h4>
                             <List>
                                 <Course
                                     imgsrc={java}
@@ -85,7 +87,7 @@ export class Education extends Component {
                                     course="COMP1805"
                                 />
                             </List>
-                            <h4 className="bio-list-subheaders">Fall Semester</h4>
+                            <h4 className="bio-list-subheaders">Fall 2017</h4>
                             <List>
                                 <Course
                                     imgsrc={python}
