@@ -60,7 +60,7 @@ class TopNav extends Component {
                                     <MenuItem eventKey={1.3}><Education style={dropdownIcon}/>Education</MenuItem>
                                 </LinkContainer>
                             </NavDropdown>
-                            <MenuItem eventKey={2} href="https://goo.gl/GfhHie"><Resume
+                            <MenuItem eventKey={2} href="https://goo.gl/wHj7V4"><Resume
                                 style={menuIcon}/>Resumé</MenuItem>
                             {/*
                                 <LinkContainer to="/events">
@@ -78,14 +78,20 @@ class TopNav extends Component {
                             */}
                         </Nav>
                         <Nav pullRight>
-                            <MenuItem href="https://github.com/jacobdanovitch">
-                                <Icon size={20} style={{marginRight: "2%"}} icon={github}/>
+                            <MenuItem>
+                                <Navbar.Link eventKey={1} href="https://github.com/jacobdanovitch"><Icon size={20}
+                                                                                                         style={{marginRight: "2%"}}
+                                                                                                         icon={github}/></Navbar.Link>
                             </MenuItem>
-                            <MenuItem href="https://linkedin.com/in/jacobdanovitch">
-                                <Icon size={20} style={{marginRight: "2%"}} icon={linkedin}/>
+                            <MenuItem>
+                                <Navbar.Link eventKey={2} href="https://linkedin.com/in/jacobdanovitch"><Icon size={20}
+                                                                                                              style={{marginRight: "2%"}}
+                                                                                                              icon={linkedin}/></Navbar.Link>
                             </MenuItem>
-                            <MenuItem href="mailto:jacob.danovitch@carleton.ca">
-                                <Icon size={20} style={{marginRight: "2%"}} icon={mail}/>
+                            <MenuItem>
+                                <Navbar.Link eventKey={3} href="mailto:jacob.danovitch@carleton.ca"><Icon size={20}
+                                                                                                          style={{marginRight: "2%"}}
+                                                                                                          icon={mail}/></Navbar.Link>
                             </MenuItem>
                         </Nav>
                     </Navbar.Collapse>
