@@ -60,7 +60,7 @@ class TopNav extends Component {
                                     <MenuItem eventKey={1.3}><Education style={dropdownIcon}/>Education</MenuItem>
                                 </LinkContainer>
                             </NavDropdown>
-                            <MenuItem eventKey={2} href="https://goo.gl/GfhHie"><Resume
+                            <MenuItem eventKey={2} href="https://goo.gl/sHxVvC"><Resume
                                 style={menuIcon}/>Resumé</MenuItem>
                             {/*
                                 <LinkContainer to="/events">
