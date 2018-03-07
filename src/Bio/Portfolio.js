@@ -12,7 +12,7 @@ import medimopic from '../Assets/imgs/medimo.jpg'
 import mlbpic from '../Assets/imgs/mlb.jpg'
 import htn from '../Assets/imgs/htn.png'
 import sf from '../Assets/imgs/sf.png'
-import carleton from '../Assets/imgs/carletonlogo.svg'
+import python from '../Assets/imgs/python.svg'
 import ccss from '../Assets/imgs/ccss.png'
 import cluster from '../Assets/imgs/clustering.png'
 import data4good from '../Assets/imgs/data4good.jpg'
@@ -79,22 +79,8 @@ export class Portfolio extends Component {
                     care to those in need."
                                     implemented="I implemented a data visualization dashboard for doctors to monitor patients, as well as a searchbar, and various aspects of the front end development."
                                     description="Medimo Labs is a mental healthcare startup founded by Dr. Ian Chen of Sick Kids' Hospital in Toronto. Medimo aims to utilize technology to make mental healthcare more accessible to all. "
-                                    learned="I learned React while working at Medimo. I also improved my HTML and CSS knowledge, my comfort with Git, and most importantly, worked with a large team for the first time, learning how to effectively communicate and collaborate in a team setting."
+                                    learned="I learned React while on the job, improved my HTML and CSS knowledge, improved my comfort with Git, and most importantly, worked with a large team for the first time and learned how to effectively communicate and collaborate in a team setting."
                                     tech="React, HTML, CSS, Git"
-                                />
-                                <Project
-                                    imgsrc={carleton}
-                                    title="Carleton SSSC: Recognized Study Group Leader"
-                                    blurb="Leader of a study group for introductory computer science courses using Java and Python. We've had as many as 50 students at our sessions!"
-                                    implemented="As the co-leader of our group I prepare and present review notes such as slideshows, Jupyter and
-                                    Beaker notebooks, or Github repositories, to help students better understand the course content. As well, I created
-                                    a small website using React, Node.js, and Firebase, with which students can enter a secret code to confirm and keep
-                                    track of their attendance."
-                                    description={["The Science Student Success Centre's 'Recognize Study Group' initiative aims to provide students with accessible help and guidance from their peers for challenging courses. Find out more here: ",
-                                        <a href='https://sssc.carleton.ca/recognized-study-groups'>Recognized
-                                            Study Groups</a>]}
-                                    tech="Teaching Python, Java; Preparing Jupyter, Beaker notebooks and Github repositories; Node.js, React, Firebase for website"
-                                    learned="I improved my communication and presentation skills, as well as strengthened my knowledge of the course content and Python."
                                 />
                                 <Project
                                     imgsrc={sf}
@@ -102,13 +88,34 @@ export class Portfolio extends Component {
                                     blurb="A student-run non-profit promoting data science education across Canadian high schools and universities."
                                     implemented={["I help run the Big Data Challenge, sponsored by IBM, SAS, and SciNet, by acquiring datasets, ",
                                         "constructing ",
-                                        "workshops",
+                                        <NavLink activeClassName="active" exact to="/tutorials">workshops</NavLink>,
                                         ", and developing the structure of the competition."]}
                                     description={['STEM Fellowship is a youth-run Canadian non-profit organization that uses mentorship and experiential learning to equip the next generation of changemakers with indispensable skills in data science and scholarly writing. Find more here: ',
                                         <a href='http://stemfellowship.org/big-data-challenge/'>STEM Fellowship</a>]}
                                     learned="I've learned more about data science topics such as K-Means Clustering, Linear Regression, and Gradient Descent,
                                 as well as more about Python and R, by constructing workshops."
                                     tech="Python, R"
+                                />
+                                <Project
+                                    imgsrc={data4good}
+                                    title="Data for Good: Ottawa"
+                                    blurb="A volunteer organization providing pro-bono data science initiatives to charitable organizations and Non-Profits."
+                                    implemented="Analysis of Ottawa Youth Services Bureau clients."
+                                    description="Data for Good is a volunteer organization inspired by DataKind. The Ottawa location has provided assvstance to organizations such as
+                                    The Ottawa Food Bank, the Ten Oaks Project, and Youville Centre."
+                                    learned="The importance of effective visualization and interpretability when delivering a product to a client."
+                                    tech="Python, R"
+                                />
+                                <Project
+                                    imgsrc={python}
+                                    title="Carleton SSSC: Recognized Study Group Leader"
+                                    blurb="Leader of a group of over 20 students for COMP1405: Introduction to Computer Science I using Python."
+                                    implemented="I led a group of over 20 students for our introductory programming course in Python, preparing and presenting review documents to help students understand the course content."
+                                    description={["The Science Student Success Centre's 'Recognize Study Group' initiative aims to provide students with accessible help and guidance from their peers for challenging courses. Find out more here: ",
+                                        <a href='https://sssc.carleton.ca/recognized-study-groups'>Recognized
+                                            Study Groups</a>]}
+                                    tech="Python"
+                                    learned="I improved my communication and presentation skills, as well as strengthened my knowledge of the course content and Python."
                                 />
                                 <Project
                                     imgsrc={ccss}
@@ -119,16 +126,6 @@ export class Portfolio extends Component {
                                         <a href='http://ccss.carleton.ca/'>CCSS</a>]}
                                     learned="I learned about my fellow computer science students, as well as how to effectively plan, organize, and promote large-scale events."
                                     tech="N/A"
-                                />
-                                <Project
-                                    imgsrc={data4good}
-                                    title="Data for Good: Ottawa Branch"
-                                    blurb="A volunteer organization providing pro-bono data science initiatives to charitable organizations and non-profits."
-                                    implemented="Analysis of Ottawa Youth Services Bureau clients."
-                                    description="Data for Good is a volunteer organization inspired by DataKind. The Ottawa location has provided assvstance to organizations such as
-                                    The Ottawa Food Bank, the Ten Oaks Project, and Youville Centre."
-                                    learned="The importance of effective visualization and interpretability when delivering a product to a client."
-                                    tech="Python, R"
                                 />
                             </List>
                         </Tab>
