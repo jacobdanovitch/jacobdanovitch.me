@@ -15,9 +15,9 @@ class Home extends Component {
                         ...</h3>
                     <div style={{marginLeft: "5%"}}>
                         <p>-Studying <strong>Computer Science</strong> at <strong>Carleton University </strong> on scholarship.</p>
-                        <p>-On the <strong>Dean's List</strong> for 2017-18! {emojify(':tada:', {output: 'unicode'})}</p>
                         <p>-An aspiring <strong>data scientist</strong> with <strong>full-stack</strong> development experience.</p>
-                        <p>-Currently looking for a <strong>summer 2018 internship.</strong></p>
+                        <p>-On the <strong>Dean's List</strong> for 2017-18! {emojify(':tada:', {output: 'unicode'})}</p>
+                        <p>-Interning at <strong>Microsoft</strong> this summer! {emojify(':tada:', {output: 'unicode'})} {emojify(':tada:', {output: 'unicode'})} {emojify(':tada:', {output: 'unicode'})}</p>
                     </div>
                     <p style={{marginTop: "5%", fontSize: "larger"}}>Now, I'd like to hear from <strong>you</strong>.
                     </p>

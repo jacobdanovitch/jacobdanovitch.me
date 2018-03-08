@@ -1,13 +1,32 @@
 import React, { Component } from 'react'
-import { Carousel } from 'react-bootstrap'
+import { PageHeader, Carousel } from 'react-bootstrap'
 import htn from '../Assets/imgs/Slideshow/htn.jpg'
 import hackinggood from '../Assets/imgs/Slideshow/hackinggood.jpg'
+import seattle from '../Assets/imgs/Slideshow/seattle.png'
 
-class Slideshow extends Component {
+export class EventHeader extends Component {
     render(){
-        const max_height = 500;
+        return(
+            <div>
+                <PageHeader>Events</PageHeader>
+                <h4>A slideshow of the fun experiences I've had the chance to have!</h4>
+            </div>
+        )
+    }
+}
+
+export class Slideshow extends Component {
+    render(){
+        const max_height = 50;
         return(
             <Carousel>
+                <Carousel.Item>
+                    <img height={max_height} alt="Seattle" src={seattle}/>
+                    <Carousel.Caption>
+                        <h3>Seattle: Pike Place</h3>
+                        <p>A shot of Pike Place from my time interviewing with Microsoft in Seattle!</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
                 <Carousel.Item>
                     <img height={max_height} alt="Hack the North" src={htn} />
                     <Carousel.Caption>
@@ -27,5 +46,3 @@ class Slideshow extends Component {
         )
     }
 }
-
-export default Slideshow

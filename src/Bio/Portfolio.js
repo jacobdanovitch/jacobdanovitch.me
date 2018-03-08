@@ -18,6 +18,7 @@ import cluster from '../Assets/imgs/clustering.png'
 import data4good from '../Assets/imgs/data4good.jpg'
 import PortfolioIcon from 'material-ui/svg-icons/notification/folder-special'
 import baseballnn from '../Assets/imgs/baseballnn.png'
+import microsoft from '../Assets/imgs/microsoft.png';
 
 class Project extends Component {
     render() {
@@ -72,6 +73,15 @@ export class Portfolio extends Component {
                             <p className="bio-list-descriptions">An overview of my professional and volunteering
                                 work.</p>
                             <List>
+                                <Project
+                                    imgsrc={microsoft}
+                                    title="Microsoft: Explore Intern"
+                                    blurb="I'll be interning at Microsoft as an Explore intern this summer!"
+                                    implemented="N/A"
+                                    description="The Microsoft Explore program offers undergraduates a chance to try the various areas of software engineering at Microsoft, rotating through develoment, testing, and product management."
+                                    learned="N/A"
+                                    tech="N/A"
+                                />
                                 <Project
                                     imgsrc={medimopic}
                                     title="Medimo Labs: Software Development Intern"
