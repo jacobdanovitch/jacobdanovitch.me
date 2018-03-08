@@ -12,6 +12,7 @@ import Portfolio from 'material-ui/svg-icons/notification/folder-special'
 import Skills from 'material-ui/svg-icons/device/developer-mode'
 import Education from 'material-ui/svg-icons/social/school'
 import Resume from 'material-ui/svg-icons/editor/insert-drive-file'
+import Event from 'material-ui/svg-icons/social/share'
 
 class TopNav extends Component {
     render() {
@@ -62,13 +63,12 @@ class TopNav extends Component {
                             </NavDropdown>
                             <MenuItem eventKey={2} href="https://goo.gl/sHxVvC"><Resume
                                 style={menuIcon}/>Resumé</MenuItem>
-                            {/*
                                 <LinkContainer to="/events">
                                 <MenuItem eventKey={3}>
                                     <Event style={menuIcon}/> Events
                                 </MenuItem>
                             </LinkContainer>
-
+                            {/*
                             <NavDropdown eventKey={4} title={[<Pencil style={menuIcon}/>, "Writing"]}>
                                 <LinkContainer to="/tutorials">
                                     <MenuItem eventKey={4.1}><Wrench style={dropdownIcon}/>Workshops</MenuItem>
