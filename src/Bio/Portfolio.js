@@ -3,7 +3,6 @@ import './Portfolio.css'
 import './BioPages.css'
 import FeatureRow from './FeatureRow'
 import {PageHeader, Tab, Tabs} from 'react-bootstrap'
-import {NavLink} from 'react-router-dom'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {List} from 'material-ui/List';
 import Code from 'material-ui/svg-icons/action/code'
@@ -15,10 +14,11 @@ import sf from '../Assets/imgs/sf.png'
 import carleton from '../Assets/imgs/carletonlogo.svg'
 import ccss from '../Assets/imgs/ccss.png'
 import cluster from '../Assets/imgs/clustering.png'
-import data4good from '../Assets/imgs/data4good.jpg'
 import PortfolioIcon from 'material-ui/svg-icons/notification/folder-special'
 import baseballnn from '../Assets/imgs/baseballnn.png'
 import microsoft from '../Assets/imgs/microsoft.png';
+import menu from '../Assets/imgs/menuboticon.svg';
+import Volunteering from 'material-ui/svg-icons/action/card-giftcard'
 
 class Project extends Component {
     render() {
@@ -68,17 +68,16 @@ export class Portfolio extends Component {
                 <PageHeader><PortfolioIcon style={{height: "30", width: "30"}}/> My Portfolio</PageHeader>
                 <MuiThemeProvider>
                     <Tabs activeKey={this.state.key} onSelect={this.handleSelect.bind(this)} id="">
-                        <Tab eventKey={1} title={[<Work/>, <span>Experience</span>]}>
+                        <Tab eventKey={1} title={[<Work/>, <span>Professional Experience</span>]}>
                             <h3 className="bio-list-subheaders">Professional Experience</h3>
-                            <p className="bio-list-descriptions">An overview of my professional and volunteering
-                                work.</p>
+                            <p className="bio-list-descriptions">An overview of my previous work experience.</p>
                             <List>
                                 <Project
                                     imgsrc={microsoft}
-                                    title="Microsoft: Explore Intern"
-                                    blurb="I'll be interning at Microsoft as an Explore intern this summer!"
-                                    implemented="N/A"
-                                    description="The Microsoft Explore program offers undergraduates a chance to try the various areas of software engineering at Microsoft, rotating through develoment, testing, and product management."
+                                    title="Microsoft: Explore Intern (Cortana Team)"
+                                    blurb="I'll be spending my summer at Microsoft as an Explore intern!"
+                                    implemented="I'll be working on the Cortana team!"
+                                    description="The Microsoft Explore program offers undergraduate students a chance to try the various areas of software engineering at Microsoft, rotating through develoment, testing, and product management."
                                     learned="N/A"
                                     tech="N/A"
                                 />
@@ -91,54 +90,6 @@ export class Portfolio extends Component {
                                     description="Medimo Labs is a mental healthcare startup founded by Dr. Ian Chen of Sick Kids' Hospital in Toronto. Medimo aims to utilize technology to make mental healthcare more accessible to all. "
                                     learned="I learned React while working at Medimo. I also improved my HTML and CSS knowledge, my comfort with Git, and most importantly, worked with a large team for the first time, learning how to effectively communicate and collaborate in a team setting."
                                     tech="React, HTML, CSS, Git"
-                                />
-                                <Project
-                                    imgsrc={carleton}
-                                    title="Carleton SSSC: Recognized Study Group Leader"
-                                    blurb="Leader of a study group for introductory computer science courses using Java and Python. We've had as many as 50 students at our sessions!"
-                                    implemented="As the co-leader of our group I prepare and present review notes such as slideshows, Jupyter and
-                                    Beaker notebooks, or Github repositories, to help students better understand the course content. As well, I created
-                                    a small website using React, Node.js, and Firebase, with which students can enter a secret code to confirm and keep
-                                    track of their attendance."
-                                    description={["The Science Student Success Centre's 'Recognize Study Group' initiative aims to provide students with accessible help and guidance from their peers for challenging courses. Find out more here: ",
-                                        <a href='https://sssc.carleton.ca/recognized-study-groups'>Recognized
-                                            Study Groups</a>]}
-                                    tech="Teaching Python, Java; Preparing Jupyter, Beaker notebooks and Github repositories; Node.js, React, Firebase for website"
-                                    learned="I improved my communication and presentation skills, as well as strengthened my knowledge of the course content and Python."
-                                />
-                                <Project
-                                    imgsrc={sf}
-                                    title="STEM Fellowship: Data Science Team"
-                                    blurb="A student-run non-profit promoting data science education across Canadian high schools and universities."
-                                    implemented={["I help run the Big Data Challenge, sponsored by IBM, SAS, and SciNet, by acquiring datasets, ",
-                                        "constructing ",
-                                        "workshops",
-                                        ", and developing the structure of the competition."]}
-                                    description={['STEM Fellowship is a youth-run Canadian non-profit organization that uses mentorship and experiential learning to equip the next generation of changemakers with indispensable skills in data science and scholarly writing. Find more here: ',
-                                        <a href='http://stemfellowship.org/big-data-challenge/'>STEM Fellowship</a>]}
-                                    learned="I've learned more about data science topics such as K-Means Clustering, Linear Regression, and Gradient Descent,
-                                as well as more about Python and R, by constructing workshops."
-                                    tech="Python, R"
-                                />
-                                <Project
-                                    imgsrc={ccss}
-                                    title="CCSS: First Year Representative"
-                                    blurb="An elected position within the Carleton Computer Science Society to represent first year computer science students."
-                                    implemented="Planning, promoting, and organizing events, as well as handling the creation of the society's first set of merchandise. "
-                                    description={["The Carleton Computer Science Society represents the computer science program at Carleton; if you're in the program, you're already a member. The CCSS plans a wide variety of events and workshops, like monthly Coffee Socials, Pancakes with Profs, Tech Talks, and much more. The first year representatives are two students voted on by their peers (450+ students in first year for 2017) to represent the freshman class. Check out the CCSS here: ",
-                                        <a href='http://ccss.carleton.ca/'>CCSS</a>]}
-                                    learned="I learned about my fellow computer science students, as well as how to effectively plan, organize, and promote large-scale events."
-                                    tech="N/A"
-                                />
-                                <Project
-                                    imgsrc={data4good}
-                                    title="Data for Good: Ottawa Branch"
-                                    blurb="A volunteer organization providing pro-bono data science initiatives to charitable organizations and non-profits."
-                                    implemented="Analysis of Ottawa Youth Services Bureau clients."
-                                    description="Data for Good is a volunteer organization inspired by DataKind. The Ottawa location has provided assvstance to organizations such as
-                                    The Ottawa Food Bank, the Ten Oaks Project, and Youville Centre."
-                                    learned="The importance of effective visualization and interpretability when delivering a product to a client."
-                                    tech="Python, R"
                                 />
                             </List>
                         </Tab>
@@ -162,6 +113,20 @@ export class Portfolio extends Component {
                             knowledge of Tensorflow."
                                 />*/}
                                 <Project
+                                    imgsrc={carleton}
+                                    title="Introductory Computer Science Study Group Leader"
+                                    blurb="Leader of a study group for introductory computer science courses using Java and Python. We've had as many as 50 students at our sessions!"
+                                    implemented="As the co-leader of our group I prepare and present review notes such as slideshows, Jupyter and
+                                    Beaker notebooks, or Github repositories, to help students better understand the course content. As well, I created
+                                    a small website using React, Node.js, and Firebase, with which students can enter a secret code to confirm and keep
+                                    track of their attendance."
+                                    description={["The Science Student Success Centre's 'Recognize Study Group' initiative aims to provide students with accessible help and guidance from their peers for challenging courses. Find out more here: ",
+                                        <a href='https://sssc.carleton.ca/recognized-study-groups'>Recognized
+                                            Study Groups</a>]}
+                                    tech="Teaching Python, Java; Preparing Jupyter, Beaker notebooks and Github repositories; Node.js, React, Firebase for website"
+                                    learned="I improved my communication and presentation skills, as well as strengthened my knowledge of the course content and Python."
+                                />
+                                <Project
                                     imgsrc={cluster}
                                     title="Clustering Algorithm for Grouping Students"
                                     blurb="Developing a clustering algorithm to help my journalism professor group students on an assignment."
@@ -169,6 +134,17 @@ export class Portfolio extends Component {
                                     implemented="By using anonymized responses to a class-wide survey and implementing a clustering algorithm using Hamming distance, I implemented a reusable algorithm that saved my professor many hours while maintaining strong student performance. "
                                     learned="This was my first project with a strict and short-term deadline, which taught me how to balance coding efficiently to meet deadlines, and coding robustly to create an effective result."
                                     tech="Python (pandas, numpy, sk-learn, seaborn, matplotlib)"
+                                />
+                                <Project
+                                    imgsrc={menu}
+                                    title="Menu Bot"
+                                    blurb="A Google Actions app for Carleton's cafeteria menu. Several thousand users per month!"
+                                    implemented="I wrote a web scraper using BeautifulSoup in Python for use in a Flask app, hosted on Heroku, which I linked to my Dialogflow model."
+                                    description="My roommate and I grew tired of accessing our school cafeteria's web menu whenever we wanted to know what there was to eat,
+                                    so I wrote a Google Actions app to do it for us! The app has earned the Gaining Traction achievement from the Google Developer Community,
+                                    with several thousand uses on average in the first couple months of deployment."
+                                    tech="Python (BeautifulSoup), Flask, Heroku, Dialogflow, Google Cloud Platform"
+                                    learned="This project gave me experience hosting a Python API in deployment."
                                 />
                                 <Project
                                     imgsrc={mlbpic}
@@ -204,6 +180,36 @@ export class Portfolio extends Component {
                     Domain.com Best Domain Name."
                                     learned="I learned about the different kinds of chatbots, how to effectively webscrape, and the wild, crazy rides of hackathons."
                                     tech="Python, IBM Watson"
+                                />
+                            </List>
+                        </Tab>
+                        <Tab eventKey={3} title={[<Volunteering/>, <span>Volunteering</span>]}>
+                            <h3 className="bio-list-subheaders">Volunteering Experience</h3>
+                            <p className="bio-list-descriptions">I enjoy volunteering and being involved in my school's community in my free time.</p>
+                            <List>
+                                <Project
+                                    imgsrc={sf}
+                                    title="STEM Fellowship: Data Science Team"
+                                    blurb="A student-run non-profit promoting data science education across Canadian high schools and universities."
+                                    implemented={["I help run the Big Data Challenge, sponsored by IBM, SAS, and SciNet, by acquiring datasets, ",
+                                        "constructing ",
+                                        "workshops",
+                                        ", and developing the structure of the competition."]}
+                                    description={['STEM Fellowship is a youth-run Canadian non-profit organization that uses mentorship and experiential learning to equip the next generation of changemakers with indispensable skills in data science and scholarly writing. Find more here: ',
+                                        <a href='http://stemfellowship.org/big-data-challenge/'>STEM Fellowship</a>]}
+                                    learned="I've learned more about data science topics such as K-Means Clustering, Linear Regression, and Gradient Descent,
+                                as well as more about Python and R, by constructing workshops."
+                                    tech="Python, R"
+                                />
+                                <Project
+                                    imgsrc={ccss}
+                                    title="CCSS: First Year Representative"
+                                    blurb="An elected position within the Carleton Computer Science Society to represent first year computer science students."
+                                    implemented="Planning, promoting, and organizing events, as well as handling the creation of the society's first set of merchandise. "
+                                    description={["The Carleton Computer Science Society represents the computer science program at Carleton; if you're in the program, you're already a member. The CCSS plans a wide variety of events and workshops, like monthly Coffee Socials, Pancakes with Profs, Tech Talks, and much more. The first year representatives are two students voted on by their peers (450+ students in first year for 2017) to represent the freshman class. Check out the CCSS here: ",
+                                        <a href='http://ccss.carleton.ca/'>CCSS</a>]}
+                                    learned="I learned about my fellow computer science students, as well as how to effectively plan, organize, and promote large-scale events."
+                                    tech="N/A"
                                 />
                             </List>
                         </Tab>
