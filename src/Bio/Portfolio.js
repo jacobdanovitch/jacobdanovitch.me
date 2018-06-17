@@ -74,12 +74,12 @@ export class Portfolio extends Component {
                             <List>
                                 <Project
                                     imgsrc={microsoft}
-                                    title="Microsoft: Explore Intern (Cortana Team)"
-                                    blurb="I'll be spending my summer at Microsoft as an Explore intern!"
-                                    implemented="I'll be working on the Cortana team!"
+                                    title="Microsoft AI & Research (Cortana): Software Engineering & Program Management Intern"
+                                    blurb="As an Explore intern with the Cortana team, I gained experience as both a software engineer and program manager."
+                                    implemented="My team introduced the Cortana Quests program, allowing users to discover and explore new Cortana skills."
                                     description="The Microsoft Explore program offers undergraduate students a chance to try the various areas of software engineering at Microsoft, rotating through develoment, testing, and product management."
-                                    learned="N/A"
-                                    tech="N/A"
+                                    learned="I learned a lot about design and communication from my experience as a program manager, and as an engineer, I learned how to take a full-stack application from a design to production."
+                                    tech="Typescript, React, C#, SQL, Azure"
                                 />
                                 <Project
                                     imgsrc={medimopic}
@@ -112,6 +112,15 @@ export class Portfolio extends Component {
                             Ng's Machine Learning Coursera from Stanford. I also learned how to use Python for web scraping, and am developing my
                             knowledge of Tensorflow."
                                 />*/}
+                                <Project
+                                    imgsrc={microsoft}
+                                    title="Microsoft Autonomous Driving Cookbook"
+                                    blurb="Contributing to an autonomous driving tutorial using reinforcement learning."
+                                    implemented=""
+                                    description=""
+                                    tech=""
+                                    learned=""
+                                />
                                 <Project
                                     imgsrc={carleton}
                                     title="Introductory Computer Science Study Group Leader"
