@@ -15,9 +15,9 @@ import carleton from '../Assets/imgs/carletonlogo.svg'
 import ccss from '../Assets/imgs/ccss.png'
 import cluster from '../Assets/imgs/clustering.png'
 import PortfolioIcon from 'material-ui/svg-icons/notification/folder-special'
-import baseballnn from '../Assets/imgs/baseballnn.png'
+// import baseballnn from '../Assets/imgs/baseballnn.png'
 import microsoft from '../Assets/imgs/microsoft.png';
-import menu from '../Assets/imgs/menuboticon.svg';
+// import menu from '../Assets/imgs/menuboticon.svg';
 import Volunteering from 'material-ui/svg-icons/action/card-giftcard'
 
 class Project extends Component {
@@ -68,13 +68,13 @@ export class Portfolio extends Component {
                 <PageHeader><PortfolioIcon style={{height: "30", width: "30"}}/> My Portfolio</PageHeader>
                 <MuiThemeProvider>
                     <Tabs activeKey={this.state.key} onSelect={this.handleSelect.bind(this)} id="">
-                        <Tab eventKey={1} title={[<Work/>, <span>Professional Experience</span>]}>
+                        <Tab eventKey={1} title={[<Work/>, <span>Professional</span>]}>
                             <h3 className="bio-list-subheaders">Professional Experience</h3>
                             <p className="bio-list-descriptions">An overview of my previous work experience.</p>
                             <List>
                                 <Project
                                     imgsrc={microsoft}
-                                    title="Microsoft AI & Research (Cortana): Software Engineering & Program Management Intern"
+                                    title="Microsoft AI & Research: Software Engineering & Program Management Intern"
                                     blurb="As an Explore intern with the Cortana team, I gained experience as both a software engineer and program manager."
                                     implemented="My team introduced the Cortana Quests program, allowing users to discover and explore new Cortana skills."
                                     description="The Microsoft Explore program offers undergraduate students a chance to try the various areas of software engineering at Microsoft, rotating through develoment, testing, and product management."
@@ -113,15 +113,6 @@ export class Portfolio extends Component {
                             knowledge of Tensorflow."
                                 />*/}
                                 <Project
-                                    imgsrc={microsoft}
-                                    title="Microsoft Autonomous Driving Cookbook"
-                                    blurb="Contributing to an autonomous driving tutorial using reinforcement learning."
-                                    implemented=""
-                                    description=""
-                                    tech=""
-                                    learned=""
-                                />
-                                <Project
                                     imgsrc={carleton}
                                     title="Introductory Computer Science Study Group Leader"
                                     blurb="Leader of a study group for introductory computer science courses using Java and Python. We've had as many as 50 students at our sessions!"
@@ -145,7 +136,7 @@ export class Portfolio extends Component {
                                     tech="Python (pandas, numpy, sk-learn, seaborn, matplotlib)"
                                 />
                                 <Project
-                                    imgsrc={menu}
+                                    imgsrc={carleton}
                                     title="Menu Bot"
                                     blurb="A Google Actions app for Carleton's cafeteria menu. Several thousand users per month!"
                                     implemented="I wrote a web scraper using BeautifulSoup in Python for use in a Flask app, hosted on Heroku, which I linked to my Dialogflow model."
@@ -164,20 +155,6 @@ export class Portfolio extends Component {
                                     description="Current win expectancy models such as those by FanGraphs or ESPN only estimate win expectancy at the plate appearance-level. Win expectancy at the pitch level would allow for extensive analysis on the impact of many in-game decisons."
                                     learned="I learned extensively about the daunting task of data engineering; from the hours of parsing to the weeks spent cleaning. I was also introduced to machine learning through the use of my Random Forest model."
                                     tech="SQLite, R (randomForest, RSQLite, dplyr, ggplot2)"
-                                />
-                                <Project
-                                    imgsrc={baseballnn}
-                                    title="Baseball Deep Neural Networks"
-                                    blurb="Teaching myself neural network architecture through predictive modelling of baseball statistics."
-                                    description="As I read Andrew Trask's excellent 'Grokking Deep Learning' book, I've followed along by modelling baseball
-                                statistics using various architectures of neural networks built from scratch."
-                                    implemented="I implemented arbitrarily deep neural networks to predict pitchers' ERA. Beginning with
-                                     standard gradient descent and progressing to the use of an object-oriented architecture, I was able to
-                                     achieve a strong RMSE."
-                                    learned="Following along interactively helps me learn from a book such as Trask's. Implementing neural network
-                                    code by hand helped me understand the inner workings of the linear algebra taking place, as well as the conceptual
-                                    ideas about learning. I strengthened my knowledge of backpropagation in particular."
-                                    tech="Python (Numpy, Pandas)"
                                 />
                                 <Project
                                     imgsrc={htn}

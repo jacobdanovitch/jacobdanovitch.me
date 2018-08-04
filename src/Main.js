@@ -7,7 +7,7 @@ import About from './Bio/About'
 import {Portfolio, PortfolioHeader} from './Bio/Portfolio'
 import {Skills, TechnologiesHeader} from './Bio/Skills'
 import {Education, EducationHeader} from './Bio/Education'
-import {Slideshow, EventHeader} from "./Events/Slideshow"
+// import {Slideshow, EventHeader} from "./Events/Slideshow"
 import Error from "./Error";
 
 import MiniNav from './Nav/MiniNav'
@@ -42,12 +42,14 @@ const routes = [
         canvas: () => <EducationHeader/>,
         body: () => <Education/>
     },
+    /*
     {
         path: '/events',
         exact: false,
         canvas: () => <EventHeader/>,
         body: () => <Slideshow/>
     },
+    */
     {
         path: '',
         exact: false,

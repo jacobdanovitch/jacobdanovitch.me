@@ -61,14 +61,19 @@ class TopNav extends Component {
                                     <MenuItem eventKey={1.3}><Education style={dropdownIcon}/>Education</MenuItem>
                                 </LinkContainer>
                             </NavDropdown>
-                            <MenuItem eventKey={2} href="https://goo.gl/sHxVvC"><Resume
-                                style={menuIcon}/>Resumé</MenuItem>
-                                <LinkContainer to="/events">
+                            
+                            <MenuItem eventKey={2} href="https://github.com/jacobdanovitch/jacobdanovitch.me/blob/master/src/Assets/jacobdanovich_resume.pdf">
+                                <Resume style={menuIcon}/>
+                                Resumé
+                            </MenuItem>
+
+                            {/*
+                            <LinkContainer to="/events">
                                 <MenuItem eventKey={3}>
                                     <Event style={menuIcon}/> Events
                                 </MenuItem>
                             </LinkContainer>
-                            {/*
+                            
                             <NavDropdown eventKey={4} title={[<Pencil style={menuIcon}/>, "Writing"]}>
                                 <LinkContainer to="/tutorials">
                                     <MenuItem eventKey={4.1}><Wrench style={dropdownIcon}/>Workshops</MenuItem>
