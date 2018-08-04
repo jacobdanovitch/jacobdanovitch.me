@@ -74,11 +74,7 @@ export class Portfolio extends Component {
                             <List>
                                 <Project
                                     imgsrc={microsoft}
-<<<<<<< HEAD
                                     title="Microsoft AI & Research: Software Engineering & Program Management Intern"
-=======
-                                    title="Microsoft AI & Research (Cortana): Software Engineering & Project Management Intern"
->>>>>>> 92cafc9851d4263a131785350f7af6157b17025b
                                     blurb="As an Explore intern with the Cortana team, I gained experience as both a software engineer and program manager."
                                     implemented="My team introduced the Cortana Quests program, allowing users to discover and explore new Cortana skills."
                                     description="The Microsoft Explore program offers undergraduate students a chance to try the various areas of software engineering at Microsoft, exploring development and project management."
