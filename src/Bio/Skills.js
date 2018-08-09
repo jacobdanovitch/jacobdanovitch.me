@@ -6,13 +6,13 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {List} from 'material-ui/List';
 import IconBootstrap from '../Assets/imgs/devicon-master/icons/bootstrap/bootstrap-plain-wordmark.svg'
 import IconCss3 from '../Assets/imgs/devicon-master/icons/css3/css3-plain-wordmark.svg'
-import Firebase from '../Assets/imgs/firebaseicon.png'
+// import Firebase from '../Assets/imgs/firebaseicon.png'
 import IconGit from '../Assets/imgs/devicon-master/icons/git/git-plain-wordmark.svg'
 import IconGithub from '../Assets/imgs/devicon-master/icons/github/github-original-wordmark.svg'
 import IconHtml5 from '../Assets/imgs/devicon-master/icons/html5/html5-plain-wordmark.svg'
 import IconJava from '../Assets/imgs/devicon-master/icons/java/java-original-wordmark.svg'
 import IconJetbrains from '../Assets/imgs/devicon-master/icons/jetbrains/jetbrains-original.svg'
-import Jupyter from '../Assets/imgs/jupyternotebookicon.png'
+// import Jupyter from '../Assets/imgs/jupyternotebookicon.png'
 import IconNodeJS from '../Assets/imgs/devicon-master/icons/nodejs/nodejs-original.svg'
 import IconNpm from '../Assets/imgs/devicon-master/icons/npm/npm-original-wordmark.svg'
 import IconPython from '../Assets/imgs/devicon-master/icons/python/python-original.svg'
@@ -123,15 +123,6 @@ export class Skills extends Component {
                                     experience=">3 months"
                                     uses="I built an authentication system for the website as well as a token users could enter to confirm attendance."
                                 />
-                                <Tech
-                                    imgsrc={Firebase}
-                                    title="Firebase"
-                                    blurb="I use Firebase to power my Recognized Study Group's website."
-                                    where="I learned Firebase to build a user database for my study group."
-                                    concepts="Asynchronicity"
-                                    experience=">3 months"
-                                    uses="I built a user database for my study group that also held session keys with which students could check-in."
-                                />
                             </List>
                         </Tab>
                         <Tab eventKey={2} title={[<Data/>, <span>Data Science</span>]}>
@@ -146,16 +137,6 @@ export class Skills extends Component {
                                     concepts="List Comprehension, Negative Indexing, Classes"
                                     experience="3 years"
                                     uses="JOUR1003 Grouping Algorithm, Baseball Neural Networks, talkaBOTit web scraper, many many more"
-                                />
-                                <Tech
-                                    imgsrc={Jupyter}
-                                    title="Jupyter Notebook"
-                                    blurb="I use Jupyter Notebook as an educational tool for teaching others, as well as for effectively documenting my solutions to data science problems."
-                                    where="I first used Jupyter Notebook as a way to outline the process I took to build the clustering algorithm for my journalism professor,
-                                    while also using it to build workshops for STEM Fellowship and my Recognized Study Group."
-                                    concepts="Cells, Kernel"
-                                    experience="6 months"
-                                    uses="Carleton Recognized Study Group, JOUR1003 Clustering Algorithm, STEM Fellowship Workshops"
                                 />
                                 <Tech
                                     imgsrc={IconR}

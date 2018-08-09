@@ -18,12 +18,12 @@ import FeatureRow from "./FeatureRow";
 
 export const EducationHeader = () => {
     return (
+        <div>
         <PageHeader>
             <strong>Honors Bachelor of Computer Science</strong>
-            <h4 className="bio-list-subheaders">
-                <strong>Co-op</strong> program | <strong>Algorithms</strong> stream | Minor in <strong>Psychology</strong>
-            </h4>
         </PageHeader>
+        <h4 className="bio-list-subheaders">Minor in <strong>Psychology</strong></h4>
+        </div>
     )
 };
 

@@ -3,7 +3,7 @@ import {withRouter} from 'react-router-dom'
 import {PageHeader} from 'react-bootstrap';
 import './Home.css';
 import TypeWriter from "react-typewriter/build/react-typewriter.es2015";
-import { emojify } from 'react-emojione'
+// import { emojify } from 'react-emojione'
 
 import Computer from '../Bio/ComputerScreen/Computer'
 
@@ -11,18 +11,16 @@ class Home extends Component {
     render() {
         return (
             <div className="home">
-                <TypeWriter typing={1} fixed maxDelay={65}>
+                <TypeWriter typing={1} fixed maxDelay={60}>
                     <PageHeader>Hi! I'm <strong>Jacob.</strong></PageHeader>
                     <h3 style={{marginTop: "-0.5%", marginBottom: "5%"}}>Let me tell you a bit about myself. I'm
                         ...</h3>
                     <div style={{marginLeft: "5%"}}>
-                        <p>-Studying <strong>Computer Science</strong> at <strong>Carleton University </strong> on scholarship.</p>
-                        <p>-An aspiring <strong>data scientist</strong> with <strong>full-stack</strong> development experience.</p>
-                        <p>-On the <strong>Dean's List</strong> for 2017-18! {emojify(':tada:', {output: 'unicode'})}</p>
-                        <p>-Interning at <strong>Microsoft</strong> this summer! {emojify(':tada:', {output: 'unicode'})} {emojify(':tada:', {output: 'unicode'})} {emojify(':tada:', {output: 'unicode'})}</p>
+                        <p>-A software engineering intern at <strong>Microsoft</strong>.</p>
+                        <p>-A <strong>dean's list</strong> student studying <strong>Computer Science</strong> at <strong>Carleton University</strong>.</p>
+                        <p>-Researching <strong>artificial intelligence</strong> and <strong>natural language processing</strong>.</p>
+                        
                     </div>
-                    <p style={{marginTop: "5%", fontSize: "larger"}}>Now, I'd like to hear from <strong>you</strong>.
-                    </p>
                 </TypeWriter>
             </div>
         )
