@@ -1,0 +1,11 @@
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\bin\Debug\netcoreapp2.0\jacobdanovitch.me.deps.json
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\bin\Debug\netcoreapp2.0\jacobdanovitch.me.runtimeconfig.json
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\bin\Debug\netcoreapp2.0\jacobdanovitch.me.runtimeconfig.dev.json
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\bin\Debug\netcoreapp2.0\jacobdanovitch.me.dll
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\bin\Debug\netcoreapp2.0\jacobdanovitch.me.pdb
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\obj\Debug\netcoreapp2.0\jacobdanovitch.me.csprojAssemblyReference.cache
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\obj\Debug\netcoreapp2.0\jacobdanovitch.me.csproj.CoreCompileInputs.cache
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\obj\Debug\netcoreapp2.0\jacobdanovitch.me.AssemblyInfoInputs.cache
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\obj\Debug\netcoreapp2.0\jacobdanovitch.me.AssemblyInfo.cs
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\obj\Debug\netcoreapp2.0\jacobdanovitch.me.dll
+C:\Users\jacob\Desktop\GitHub\jacobdanovitch.me\obj\Debug\netcoreapp2.0\jacobdanovitch.me.pdb

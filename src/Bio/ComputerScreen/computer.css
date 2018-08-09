@@ -1,0 +1,41 @@
+.container {
+    background: url(monitor.png) no-repeat;
+    height: 250px;
+    background-size: contain;
+    position: relative;
+}
+
+.portfolio-image {
+    position: relative;
+    height: 275px;
+
+    background: url("clustering.png") no-repeat center center;
+    background-size: cover;
+    border-radius: 1%;
+
+    top: 4.75%;
+    left: -0.3%;
+
+    max-height: 63%;
+    max-width: 24.5%;
+}
+
+
+/*
+.container {
+    position: relative;
+}
+
+.computer {
+    position: absolute;
+    height: 250px;
+}
+
+.portfolio-image {
+    position: absolute;
+    z-index: -999;
+
+    min-height: 100%;
+    max-height: 100%;
+}
+*/

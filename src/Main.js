@@ -16,13 +16,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import './Assets/imgs/devicon-master/devicon-colors.css'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Computer from "./Bio/ComputerScreen/Computer";
 
 const routes = [
     {
         path: '/',
         exact: true,
         canvas: () => <Home/>,
-        body: () => <div/>
+        body: () => <Computer/>
     },
     {
         path: '/portfolio',

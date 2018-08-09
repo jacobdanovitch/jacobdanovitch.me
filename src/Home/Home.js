@@ -5,6 +5,8 @@ import './Home.css';
 import TypeWriter from "react-typewriter/build/react-typewriter.es2015";
 import { emojify } from 'react-emojione'
 
+import Computer from '../Bio/ComputerScreen/Computer'
+
 class Home extends Component {
     render() {
         return (
