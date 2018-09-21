@@ -62,7 +62,7 @@ class TopNav extends Component {
                                 </LinkContainer>
                             </NavDropdown>
                             
-                            <MenuItem eventKey={2} href="">
+                            <MenuItem eventKey={2} href="https://github.com/jacobdanovitch/jacobdanovitch.me/blob/master/src/Assets/jacobdanovitch_resume.pdf">
                                 <Resume style={menuIcon}/>
                                 Resumé
                             </MenuItem>
