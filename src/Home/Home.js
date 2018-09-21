@@ -5,6 +5,8 @@ import './Home.css';
 import TypeWriter from "react-typewriter/build/react-typewriter.es2015";
 // import { emojify } from 'react-emojione'
 
+// https://www.linkedin.com/badges/profile/create?vanityname=jacobdanovitch&trk=pprof-settings-badge
+
 class Home extends Component {
     render() {
         return (
